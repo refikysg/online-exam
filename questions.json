@@ -5,7 +5,9 @@
     "options": {
       "A": "Hyper Text Markup Language",
       "B": "Home Tool Markup Language",
-      "C": "Hyperlinks and Text Markup Language"
+      "C": "Hyperlinks and Text Markup Language",
+      "D": "Hyper Text Management Language",
+      "E": "None of the above"
     },
     "correct": "A"
   },
@@ -15,19 +17,10 @@
     "options": {
       "A": "HTML",
       "B": "CSS",
-      "C": "JavaScript"
+      "C": "JavaScript",
+      "D": "PHP",
+      "E": "All of the above"
     },
     "correct": "B"
-  },
-  {
-    "id": "q3",
-    "question": "Which of the following is a JavaScript framework/library?",
-    "options": {
-      "A": "React",
-      "B": "Python",
-      "C": "Django",
-      "D": "Refik"
-    },
-    "correct": "A"
   }
 ]
