@@ -1,224 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Online Examination Portal</title>
-    <style>
-        :root {
-            --primary-color: #2563eb;
-            --background-color: #f8fafc;
-            --card-background: #ffffff;
-            --text-color: #1e293b;
-            --border-color: #e2e8f0;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Online Examination Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --muted: #94a3b8;
+    --border-color: #e2e8f0;
+    --primary-color: #2563eb;
+    --primary-soft: #eff6ff;
+    --accent-gold: #d97706;
+    --accent-gold-soft: #fef3c7;
+    --danger-color: #dc2626;
+    --danger-soft: #fef2f2;
+    --success-color: #16a34a;
+    --success-soft: #f0fdf4;
+  }
 
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-color);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
 
-        .exam-container {
-            max-width: 800px;
-            width: 100%;
-            background: var(--card-background);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-        }
+  #app {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 15px;
-            margin-bottom: 25px;
-        }
+  /* Header */
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+  .site-header .brand {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-primary);
+  }
+  .site-header .brand span { color: var(--primary-color); }
+  .site-header .tagline {
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
 
-        h1 { margin: 0; font-size: 24px; color: #0f172a; }
+  /* Setup Screen */
+  .intro h1 { font-size: 28px; margin: 0 0 8px; }
+  .intro p { font-size: 15px; color: var(--text-secondary); margin: 0 0 24px; }
 
-        .timer-box {
-            background-color: #fee2e2;
-            color: #991b1b;
-            padding: 8px 16px;
-            border-radius: 6px;
-            font-weight: bold;
-        }
+  .setup-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 28px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  .setup-card h3 { margin: 0 0 14px; font-size: 18px; }
 
-        .question-card {
-            margin-bottom: 25px;
-            padding: 20px;
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            background-color: #fafafa;
-        }
+  .select-box, .count-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
 
-        .question-text { font-size: 18px; font-weight: 600; margin-bottom: 15px; }
-        .options-list { list-style: none; padding: 0; margin: 0; }
-        
-        .option-item {
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-        }
+  .chip-btn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .chip-btn:hover { border-color: var(--primary-color); color: var(--primary-color); }
+  .chip-btn.selected {
+    border-color: var(--primary-color);
+    background: var(--primary-soft);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
 
-        .option-item input[type="radio"] {
-            margin-right: 12px;
-            width: 18px;
-            height: 18px;
-            cursor: pointer;
-        }
+  /* Buttons */
+  .btn {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 22px;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: opacity 0.15s ease;
+  }
+  .btn:hover { opacity: 0.9; }
+  .btn.secondary {
+    background: var(--card-bg);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+  }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-        .option-item label {
-            font-size: 16px;
-            cursor: pointer;
-            width: 100%;
-            padding: 8px;
-            border-radius: 4px;
-        }
+  /* Quiz Area */
+  .quiz-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .timer-box {
+    background-color: var(--danger-soft);
+    color: var(--danger-color);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .progress-bar {
+    height: 4px;
+    background: var(--border-color);
+    margin-bottom: 24px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .progress-bar .fill {
+    height: 100%;
+    background: var(--primary-color);
+    transition: width 0.25s ease;
+  }
 
-        .option-item label:hover { background-color: #f1f5f9; }
+  .quiz-wrap {
+    display: grid;
+    grid-template-columns: 1fr 220px;
+    gap: 28px;
+  }
+  @media (max-width: 720px) {
+    .quiz-wrap { grid-template-columns: 1fr; }
+  }
 
-        .submit-btn {
-            background-color: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 12px 30px;
-            font-size: 16px;
-            font-weight: bold;
-            border-radius: 6px;
-            cursor: pointer;
-        }
+  .question-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 24px;
+    border-radius: 8px;
+  }
+  .q-badge {
+    font-size: 12px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .q-text {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
 
-        .submit-btn:hover { background-color: #1d4ed8; }
+  .options { display: flex; flex-direction: column; gap: 10px; }
+  .option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    background: var(--card-bg);
+    transition: all 0.15s ease;
+  }
+  .option:hover { border-color: var(--primary-color); }
+  .option .key { font-weight: 700; color: var(--text-secondary); min-width: 20px; }
+  .option.selected { border-color: var(--primary-color); background: var(--primary-soft); }
+  .option.correct { border-color: var(--success-color); background: var(--success-soft); }
+  .option.incorrect { border-color: var(--danger-color); background: var(--danger-soft); }
 
-        #results-panel {
-            display: none;
-            margin-top: 25px;
-            padding: 20px;
-            border-radius: 8px;
-            background-color: #ecfdf5;
-            border: 1px solid #a7f3d0;
-            color: #065f46;
-        }
-    </style>
+  /* Instant Tip Box */
+  .tip-box {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #78350f;
+    border-left: 3px solid var(--accent-gold);
+    padding: 12px 16px;
+    background: var(--accent-gold-soft);
+    border-radius: 0 6px 6px 0;
+    display: none;
+    line-height: 1.5;
+  }
+  .tip-box.show { display: block; }
+
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  /* Palette Sidebar */
+  .palette {
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    padding: 18px;
+    border-radius: 8px;
+    height: fit-content;
+  }
+  .palette h4 { margin: 0 0 12px; font-size: 13px; color: var(--text-secondary); }
+  .palette-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+  .p-cell {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    cursor: pointer;
+    background: var(--card-bg);
+  }
+  .p-cell.answered { background: var(--primary-soft); border-color: var(--primary-color); color: var(--primary-color); font-weight: 600; }
+  .p-cell.current { border-width: 2px; border-color: var(--text-primary); font-weight: 700; }
+
+  /* Results Screen */
+  .score-panel {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+  .score-big { font-size: 48px; font-weight: 700; color: var(--primary-color); line-height: 1; }
+  .score-big small { font-size: 18px; color: var(--muted); }
+  .score-meta { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+  .review-item { border-bottom: 1px solid var(--border-color); padding: 18px 0; }
+  .review-q { font-size: 15px; font-weight: 600; margin: 6px 0; }
+  .badge-status {
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  .badge-status.ok { background: var(--success-soft); color: var(--success-color); }
+  .badge-status.no { background: var(--danger-soft); color: var(--danger-color); }
+  .badge-status.skip { background: var(--border-color); color: var(--text-secondary); }
+</style>
 </head>
 <body>
 
-<div class="exam-container">
-    <header>
-        <h1>Online Examination</h1>
-        <div class="timer-box">Time Remaining: <span id="timer">05:00</span></div>
-    </header>
-
-    <form id="quizForm">
-        <!-- Questions will be injected here automatically by JavaScript -->
-        <div id="questions-container">Loading questions...</div>
-        <button type="button" class="submit-btn" onclick="submitExam()">Submit Examination</button>
-    </form>
-
-    <div id="results-panel">
-        <h2>Exam Completed!</h2>
-        <p id="score-text"></p>
-    </div>
-</div>
+<div id="app">Loading examination portal...</div>
 
 <script>
-    let examQuestions = [];
-    let totalTime = 5 * 60; 
-    const timerElement = document.getElementById('timer');
-    let countdown;
+  let questionsData = {};
+  let timerInterval = null;
 
-    // 1. Fetch questions from the external JSON text file
-    async function loadQuestions() {
-        try {
-            const response = await fetch('questions.json');
-            examQuestions = await response.json();
-            renderQuestions();
-            startTimer();
-        } catch (error) {
-            document.getElementById('questions-container').innerText = "Failed to load questions. Make sure questions.json is in the same folder.";
-            console.error("Error loading JSON:", error);
-        }
+  let state = {
+    screen: "setup", // setup | quiz | result
+    subject: "",
+    questionCount: 5,
+    sessionQuestions: [],
+    current: 0,
+    answers: {},
+    timeLeft: 0
+  };
+
+  async function loadData() {
+    try {
+      const response = await fetch('questions.json');
+      questionsData = await response.json();
+      
+      const subjects = Object.keys(questionsData);
+      if (subjects.length > 0) {
+        state.subject = subjects[0];
+      }
+      render();
+    } catch (e) {
+      document.getElementById('app').innerHTML = `<p style="color:red">Failed to load questions.json. Please ensure the file is available in the same directory.</p>`;
     }
+  }
 
-    // 2. Dynamically build the HTML for the questions
-    function renderQuestions() {
-        const container = document.getElementById('questions-container');
-        container.innerHTML = ''; // Clear loading text
+  function startExam() {
+    const pool = questionsData[state.subject] || [];
+    const count = Math.min(state.questionCount, pool.length);
 
-        examQuestions.forEach((q, index) => {
-            let optionsHTML = '';
-            
-            // Loop through options (A, B, C...)
-            for (let key in q.options) {
-                optionsHTML += `
-                    <li class="option-item">
-                        <input type="radio" name="${q.id}" id="${q.id}_${key}" value="${key}">
-                        <label for="${q.id}_${key}">${q.options[key]}</label>
-                    </li>
-                `;
+    // Shuffle and pick requested number of questions
+    state.sessionQuestions = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
+    state.current = 0;
+    state.answers = {};
+    // Calculate 1.5 minutes per question
+    state.timeLeft = count * 90; 
+    state.screen = "quiz";
+
+    startTimer();
+    render();
+  }
+
+  function startTimer() {
+    clearInterval(timerInterval);
+    timerInterval = setInterval(() => {
+      state.timeLeft--;
+      if (state.timeLeft <= 0) {
+        clearInterval(timerInterval);
+        finishExam();
+      } else {
+        updateTimerDisplay();
+      }
+    }, 1000);
+  }
+
+  function updateTimerDisplay() {
+    const el = document.getElementById('timer');
+    if (el) {
+      const m = Math.floor(state.timeLeft / 60).toString().padStart(2, '0');
+      const s = (state.timeLeft % 60).toString().padStart(2, '0');
+      el.textContent = `${m}:${s}`;
+    }
+  }
+
+  function selectOption(qIdx, key) {
+    state.answers[qIdx] = key;
+    render();
+  }
+
+  function goTo(qIdx) {
+    state.current = qIdx;
+    render();
+  }
+
+  function finishExam() {
+    clearInterval(timerInterval);
+    state.screen = "result";
+    render();
+  }
+
+  function renderHeader() {
+    return `
+      <div class="site-header">
+        <div class="brand">Exam<span>Portal</span></div>
+        <div class="tagline">Professional Assessment System</div>
+      </div>
+    `;
+  }
+
+  function renderSetup() {
+    const subjects = Object.keys(questionsData);
+    const pool = questionsData[state.subject] || [];
+    const maxCount = pool.length;
+    const presets = [5, 10, 15, maxCount].filter((n, i, arr) => n <= maxCount && arr.indexOf(n) === i);
+
+    const subjectBtns = subjects.map(s => `
+      <button class="chip-btn ${state.subject === s ? 'selected' : ''}" onclick="state.subject='${s}'; render();">
+        ${s}
+      </button>
+    `).join('');
+
+    const countBtns = presets.map(n => `
+      <button class="chip-btn ${state.questionCount === n ? 'selected' : ''}" onclick="state.questionCount=${n}; render();">
+        ${n === maxCount ? `All (${n})` : `${n} Questions`}
+      </button>
+    `).join('');
+
+    return `
+      ${renderHeader()}
+      <div class="intro">
+        <h1>Configure Your Examination</h1>
+        <p>Select your subject area and the number of questions to begin.</p>
+      </div>
+
+      <div class="setup-card">
+        <h3>1. Select Subject</h3>
+        <div class="select-box">${subjectBtns}</div>
+
+        <h3>2. Number of Questions</h3>
+        <div class="count-options">${countBtns}</div>
+
+        <button class="btn" style="margin-top: 10px;" onclick="startExam()">Start Examination</button>
+      </div>
+    `;
+  }
+
+  function renderQuiz() {
+    const total = state.sessionQuestions.length;
+    const qIdx = state.current;
+    const q = state.sessionQuestions[qIdx];
+    const userSelected = state.answers[qIdx];
+    const answeredCount = Object.keys(state.answers).length;
+    const progressPct = Math.round((answeredCount / total) * 100);
+
+    const optionsHtml = Object.keys(q.options).map(key => {
+      let cls = "option";
+      if (userSelected === key) cls += " selected";
+      
+      // If selected, reveal correct / incorrect status
+      if (userSelected) {
+        if (key === q.correct) cls += " correct";
+        else if (userSelected === key) cls += " incorrect";
+      }
+
+      return `
+        <div class="${cls}" onclick="selectOption(${qIdx}, '${key}')">
+          <span class="key">${key}.</span>
+          <span>${q.options[key]}</span>
+        </div>
+      `;
+    }).join('');
+
+    const paletteCells = state.sessionQuestions.map((_, i) => {
+      let cls = "p-cell";
+      if (state.answers[i] !== undefined) cls += " answered";
+      if (i === qIdx) cls += " current";
+      return `<div class="${cls}" onclick="goTo(${i})">${i + 1}</div>`;
+    }).join('');
+
+    return `
+      ${renderHeader()}
+      <div class="quiz-head">
+        <div><strong>${state.subject}</strong> — Question ${qIdx + 1} of ${total}</div>
+        <div class="timer-box">Time Remaining: <span id="timer">--:--</span></div>
+      </div>
+
+      <div class="progress-bar">
+        <div class="fill" style="width: ${progressPct}%"></div>
+      </div>
+
+      <div class="quiz-wrap">
+        <div>
+          <div class="question-card">
+            <div class="q-badge">Question ${qIdx + 1}</div>
+            <div class="q-text">${q.question}</div>
+            <div class="options">${optionsHtml}</div>
+            <div class="tip-box ${userSelected ? 'show' : ''}">
+              💡 <strong>Tip / Explanation:</strong> ${q.tip || "No additional explanation available."}
+            </div>
+          </div>
+
+          <div class="nav-buttons">
+            <button class="btn secondary" onclick="goTo(${qIdx - 1})" ${qIdx === 0 ? 'disabled' : ''}>← Previous</button>
+            ${qIdx === total - 1
+              ? `<button class="btn" onclick="finishExam()">Submit Exam</button>`
+              : `<button class="btn" onclick="goTo(${qIdx + 1})">Next →</button>`
             }
+          </div>
+        </div>
 
-            const card = document.createElement('div');
-            card.className = 'question-card';
-            card.innerHTML = `
-                <div class="question-text">${index + 1}. ${q.question}</div>
-                <ul class="options-list">${optionsHTML}</ul>
-            `;
-            container.appendChild(card);
-        });
-    }
+        <div class="palette">
+          <h4>Question Palette</h4>
+          <div class="palette-grid">${paletteCells}</div>
+        </div>
+      </div>
+    `;
+  }
 
-    // 3. Timer Engine
-    function startTimer() {
-        countdown = setInterval(() => {
-            let minutes = Math.floor(totalTime / 60);
-            let seconds = totalTime % 60;
-            seconds = seconds < 10 ? '0' + seconds : seconds;
-            minutes = minutes < 10 ? '0' + minutes : minutes;
+  function renderResult() {
+    const total = state.sessionQuestions.length;
+    let score = 0;
 
-            timerElement.textContent = `${minutes}:${seconds}`;
+    state.sessionQuestions.forEach((q, i) => {
+      if (state.answers[i] === q.correct) score++;
+    });
 
-            if (totalTime <= 0) {
-                clearInterval(countdown);
-                alert("Time's up!");
-                submitExam();
-            }
-            totalTime--;
-        }, 1000);
-    }
+    const reviewHtml = state.sessionQuestions.map((q, i) => {
+      const userAns = state.answers[i];
+      const isCorrect = userAns === q.correct;
+      const statusBadge = userAns === undefined
+        ? `<span class="badge-status skip">Unanswered</span>`
+        : isCorrect
+          ? `<span class="badge-status ok">Correct</span>`
+          : `<span class="badge-status no">Incorrect</span>`;
 
-    // 4. Submit & Auto-Grade Engine
-    function submitExam() {
-        clearInterval(countdown);
-        
-        const form = document.getElementById('quizForm');
-        const formData = new FormData(form);
-        let score = 0;
+      return `
+        <div class="review-item">
+          <div>${statusBadge}</div>
+          <div class="review-q">${i + 1}. ${q.question}</div>
+          <div style="font-size: 14px; color: var(--text-secondary);">
+            Your Answer: <strong>${userAns || 'None'}</strong> | Correct Answer: <strong>${q.correct}</strong>
+          </div>
+          ${q.tip ? `<div style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;"><em>${q.tip}</em></div>` : ''}
+        </div>
+      `;
+    }).join('');
 
-        examQuestions.forEach(q => {
-            if (formData.get(q.id) === q.correct) {
-                score++;
-            }
-        });
+    return `
+      ${renderHeader()}
+      <h2>Exam Results</h2>
+      <div class="score-panel">
+        <div class="score-big">${score}<small>/${total}</small></div>
+        <div class="score-meta">
+          <div>Correct Answers: <strong>${score}</strong></div>
+          <div>Incorrect / Skipped: <strong>${total - score}</strong></div>
+          <div>Score Percentage: <strong>${Math.round((score / total) * 100)}%</strong></div>
+        </div>
+      </div>
 
-        form.style.display = 'none';
-        document.querySelector('.timer-box').style.display = 'none';
-        
-        const resultsPanel = document.getElementById('results-panel');
-        resultsPanel.style.display = 'block';
-        document.getElementById('score-text').innerHTML = `You scored <strong>${score}</strong> out of <strong>${examQuestions.length}</strong>.`;
-    }
+      <h3>Review Answers</h3>
+      ${reviewHtml}
 
-    // Run on startup
-    window.onload = loadQuestions;
+      <div style="margin-top: 24px;">
+        <button class="btn" onclick="state.screen='setup'; render();">Take Another Exam</button>
+      </div>
+    `;
+  }
+
+  function render() {
+    const app = document.getElementById('app');
+    if (state.screen === "setup") app.innerHTML = renderSetup();
+    else if (state.screen === "quiz") {
+      app.innerHTML = renderQuiz();
+      updateTimerDisplay();
+    } else if (state.screen === "result") app.innerHTML = renderResult();
+    window.scrollTo(0, 0);
+  }
+
+  window.onload = loadData;
 </script>
 
 </body>
