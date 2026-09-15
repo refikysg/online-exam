@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Professional Online Examination Portal</title>
+<title>KPSS Ortaöğretim · Deneme Sınavı Portalı</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -41,7 +41,7 @@
     padding: 40px 24px 80px;
   }
 
-  /* Header */
+  /* Üst Bilgi Alanı (Header) */
   .site-header {
     display: flex;
     justify-content: space-between;
@@ -61,9 +61,9 @@
     color: var(--text-secondary);
   }
 
-  /* Setup Screen */
+  /* Kurulum Ekranı */
   .intro h1 { font-size: 28px; margin: 0 0 8px; }
-  .intro p { font-size: 15px; color: var(--text-secondary); margin: 0 0 24px; }
+  .intro p { font-size: 15px; color: var(--text-secondary); margin: 0 0 24px; line-height: 1.5; }
 
   .setup-card {
     background: var(--card-bg);
@@ -73,13 +73,13 @@
     margin-bottom: 24px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
-  .setup-card h3 { margin: 0 0 14px; font-size: 18px; }
+  .setup-card h3 { margin: 0 0 12px; font-size: 16px; color: var(--text-primary); }
 
   .select-box, .count-options {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
   .chip-btn {
@@ -102,7 +102,17 @@
     font-weight: 600;
   }
 
-  /* Buttons */
+  .info-badge {
+    display: inline-block;
+    font-size: 12px;
+    background: #f1f5f9;
+    color: #475569;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 6px;
+  }
+
+  /* Butonlar */
   .btn {
     font-family: inherit;
     font-size: 14px;
@@ -123,7 +133,7 @@
   }
   .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  /* Quiz Area */
+  /* Sınav Ekranı */
   .quiz-head {
     display: flex;
     justify-content: space-between;
@@ -174,8 +184,8 @@
     margin-bottom: 8px;
   }
   .q-text {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 17px;
+    line-height: 1.55;
     font-weight: 600;
     margin: 0 0 20px;
   }
@@ -199,7 +209,7 @@
   .option.correct { border-color: var(--success-color); background: var(--success-soft); }
   .option.incorrect { border-color: var(--danger-color); background: var(--danger-soft); }
 
-  /* Instant Tip Box */
+  /* İpucu ve Çözüm Kutusu */
   .tip-box {
     margin-top: 20px;
     font-size: 14px;
@@ -219,7 +229,7 @@
     margin-top: 20px;
   }
 
-  /* Palette Sidebar */
+  /* Soru Paleti Sidebar */
   .palette {
     border: 1px solid var(--border-color);
     background: var(--card-bg);
@@ -243,7 +253,7 @@
   .p-cell.answered { background: var(--primary-soft); border-color: var(--primary-color); color: var(--primary-color); font-weight: 600; }
   .p-cell.current { border-width: 2px; border-color: var(--text-primary); font-weight: 700; }
 
-  /* Results Screen */
+  /* Sonuç Ekranı */
   .score-panel {
     display: flex;
     align-items: center;
@@ -274,9 +284,19 @@
 </head>
 <body>
 
-<div id="app">Loading examination portal...</div>
+<div id="app">Sınav portalı yükleniyor...</div>
 
 <script>
+  // KPSS Ortaöğretim Gerçek ÖSYM Soru Dağılımı Referansı
+  const kpssDist = {
+    "Türkçe": "30 Soru",
+    "Matematik": "30 Soru",
+    "Tarih": "27 Soru",
+    "Coğrafya": "18 Soru",
+    "Vatandaşlık": "9 Soru",
+    "Güncel Bilgiler": "6 Soru"
+  };
+
   let questionsData = {};
   let timerInterval = null;
 
@@ -301,7 +321,7 @@
       }
       render();
     } catch (e) {
-      document.getElementById('app').innerHTML = `<p style="color:red">Failed to load questions.json. Please ensure the file is available in the same directory.</p>`;
+      document.getElementById('app').innerHTML = `<p style="color:red">Soru bankası (questions.json) yüklenemedi. Lütfen dosyanın aynı dizinde bulunduğundan emin olun.</p>`;
     }
   }
 
@@ -309,12 +329,12 @@
     const pool = questionsData[state.subject] || [];
     const count = Math.min(state.questionCount, pool.length);
 
-    // Shuffle and pick requested number of questions
+    // Rastgele karıştırıp istenilen sayıda soru seçimi
     state.sessionQuestions = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
     state.current = 0;
     state.answers = {};
-    // Calculate 1.5 minutes per question
-    state.timeLeft = count * 90; 
+    // KPSS standartı: Soru başına 1.1 dakika (66 saniye)
+    state.timeLeft = count * 66; 
     state.screen = "quiz";
 
     startTimer();
@@ -327,6 +347,7 @@
       state.timeLeft--;
       if (state.timeLeft <= 0) {
         clearInterval(timerInterval);
+        alert("Süreniz dolmuştur! Sınavınız otomatik olarak sonlandırılıyor.");
         finishExam();
       } else {
         updateTimerDisplay();
@@ -362,8 +383,8 @@
   function renderHeader() {
     return `
       <div class="site-header">
-        <div class="brand">Exam<span>Portal</span></div>
-        <div class="tagline">Professional Assessment System</div>
+        <div class="brand">KPSS<span>Deneme</span></div>
+        <div class="tagline">KPSS Ortaöğretim Hazırlık Portalı</div>
       </div>
     `;
   }
@@ -376,31 +397,31 @@
 
     const subjectBtns = subjects.map(s => `
       <button class="chip-btn ${state.subject === s ? 'selected' : ''}" onclick="state.subject='${s}'; render();">
-        ${s}
+        ${s} <span class="info-badge">${kpssDist[s] || ''}</span>
       </button>
     `).join('');
 
     const countBtns = presets.map(n => `
       <button class="chip-btn ${state.questionCount === n ? 'selected' : ''}" onclick="state.questionCount=${n}; render();">
-        ${n === maxCount ? `All (${n})` : `${n} Questions`}
+        ${n === maxCount ? `Tümü (${n})` : `${n} Soru`}
       </button>
     `).join('');
 
     return `
       ${renderHeader()}
       <div class="intro">
-        <h1>Configure Your Examination</h1>
-        <p>Select your subject area and the number of questions to begin.</p>
+        <h1>KPSS Konu Deneme Sınavı</h1>
+        <p>Çalışmak istediğiniz KPSS Ortaöğretim dersini ve çözmek istediğiniz soru sayısını seçerek denemeyi başlatabilirsiniz.</p>
       </div>
 
       <div class="setup-card">
-        <h3>1. Select Subject</h3>
+        <h3>1. Ders Seçiniz</h3>
         <div class="select-box">${subjectBtns}</div>
 
-        <h3>2. Number of Questions</h3>
+        <h3>2. Soru Sayısı</h3>
         <div class="count-options">${countBtns}</div>
 
-        <button class="btn" style="margin-top: 10px;" onclick="startExam()">Start Examination</button>
+        <button class="btn" style="margin-top: 10px;" onclick="startExam()">Sınavı Başlat</button>
       </div>
     `;
   }
@@ -417,7 +438,7 @@
       let cls = "option";
       if (userSelected === key) cls += " selected";
       
-      // If selected, reveal correct / incorrect status
+      // Cevap seçildiğinde doğru/yanlış rengi gösterilir
       if (userSelected) {
         if (key === q.correct) cls += " correct";
         else if (userSelected === key) cls += " incorrect";
@@ -425,7 +446,7 @@
 
       return `
         <div class="${cls}" onclick="selectOption(${qIdx}, '${key}')">
-          <span class="key">${key}.</span>
+          <span class="key">${key})</span>
           <span>${q.options[key]}</span>
         </div>
       `;
@@ -441,8 +462,8 @@
     return `
       ${renderHeader()}
       <div class="quiz-head">
-        <div><strong>${state.subject}</strong> — Question ${qIdx + 1} of ${total}</div>
-        <div class="timer-box">Time Remaining: <span id="timer">--:--</span></div>
+        <div><strong>${state.subject} Testi</strong> — Soru ${qIdx + 1} / ${total}</div>
+        <div class="timer-box">Kalan Süre: <span id="timer">--:--</span></div>
       </div>
 
       <div class="progress-bar">
@@ -452,25 +473,25 @@
       <div class="quiz-wrap">
         <div>
           <div class="question-card">
-            <div class="q-badge">Question ${qIdx + 1}</div>
+            <div class="q-badge">Soru ${qIdx + 1}</div>
             <div class="q-text">${q.question}</div>
             <div class="options">${optionsHtml}</div>
             <div class="tip-box ${userSelected ? 'show' : ''}">
-              💡 <strong>Tip / Explanation:</strong> ${q.tip || "No additional explanation available."}
+              💡 <strong>İpucu / Çözüm Açıklaması:</strong> ${q.tip || "Bu soru için ek açıklama bulunmuyor."}
             </div>
           </div>
 
           <div class="nav-buttons">
-            <button class="btn secondary" onclick="goTo(${qIdx - 1})" ${qIdx === 0 ? 'disabled' : ''}>← Previous</button>
+            <button class="btn secondary" onclick="goTo(${qIdx - 1})" ${qIdx === 0 ? 'disabled' : ''}>← Önceki Soru</button>
             ${qIdx === total - 1
-              ? `<button class="btn" onclick="finishExam()">Submit Exam</button>`
-              : `<button class="btn" onclick="goTo(${qIdx + 1})">Next →</button>`
+              ? `<button class="btn" onclick="finishExam()">Sınavı Bitir</button>`
+              : `<button class="btn" onclick="goTo(${qIdx + 1})">Sonraki Soru →</button>`
             }
           </div>
         </div>
 
         <div class="palette">
-          <h4>Question Palette</h4>
+          <h4>Soru Paleti</h4>
           <div class="palette-grid">${paletteCells}</div>
         </div>
       </div>
@@ -489,40 +510,40 @@
       const userAns = state.answers[i];
       const isCorrect = userAns === q.correct;
       const statusBadge = userAns === undefined
-        ? `<span class="badge-status skip">Unanswered</span>`
+        ? `<span class="badge-status skip">Boş</span>`
         : isCorrect
-          ? `<span class="badge-status ok">Correct</span>`
-          : `<span class="badge-status no">Incorrect</span>`;
+          ? `<span class="badge-status ok">Doğru</span>`
+          : `<span class="badge-status no">Yanlış</span>`;
 
       return `
         <div class="review-item">
           <div>${statusBadge}</div>
           <div class="review-q">${i + 1}. ${q.question}</div>
           <div style="font-size: 14px; color: var(--text-secondary);">
-            Your Answer: <strong>${userAns || 'None'}</strong> | Correct Answer: <strong>${q.correct}</strong>
+            Sizin Cevabınız: <strong>${userAns || 'Cevaplanmadı'}</strong> | Doğru Cevap: <strong>${q.correct}</strong>
           </div>
-          ${q.tip ? `<div style="font-size: 13px; color: var(--text-secondary); margin-top: 4px;"><em>${q.tip}</em></div>` : ''}
+          ${q.tip ? `<div style="font-size: 13px; color: var(--text-secondary); margin-top: 6px;"><em>Çözüm: ${q.tip}</em></div>` : ''}
         </div>
       `;
     }).join('');
 
     return `
       ${renderHeader()}
-      <h2>Exam Results</h2>
+      <h2>Sınav Sonucu</h2>
       <div class="score-panel">
         <div class="score-big">${score}<small>/${total}</small></div>
         <div class="score-meta">
-          <div>Correct Answers: <strong>${score}</strong></div>
-          <div>Incorrect / Skipped: <strong>${total - score}</strong></div>
-          <div>Score Percentage: <strong>${Math.round((score / total) * 100)}%</strong></div>
+          <div>Doğru Sayısı: <strong>${score}</strong></div>
+          <div>Yanlış / Boş Sayısı: <strong>${total - score}</strong></div>
+          <div>Başarı Oranı: <strong>%${Math.round((score / total) * 100)}</strong></div>
         </div>
       </div>
 
-      <h3>Review Answers</h3>
+      <h3>Soru Detayları ve Çözümler</h3>
       ${reviewHtml}
 
       <div style="margin-top: 24px;">
-        <button class="btn" onclick="state.screen='setup'; render();">Take Another Exam</button>
+        <button class="btn" onclick="state.screen='setup'; render();">Yeni Test Çöz</button>
       </div>
     `;
   }
