@@ -1,26 +1,52 @@
-[
-  {
-    "id": "q1",
-    "question": "What does HTML stand for?",
-    "options": {
-      "A": "Hyper Text Markup Language",
-      "B": "Home Tool Markup Language",
-      "C": "Hyperlinks and Text Markup Language",
-      "D": "Hyper Text Management Language",
-      "E": "None of the above"
+{
+  "HTML & CSS": [
+    {
+      "id": "html_1",
+      "question": "What does HTML stand for?",
+      "options": {
+        "A": "Hyper Text Markup Language",
+        "B": "Home Tool Markup Language",
+        "C": "Hyperlinks and Text Markup Language"
+      },
+      "correct": "A",
+      "tip": "HTML stands for Hyper Text Markup Language and defines the structure of web pages."
     },
-    "correct": "A"
-  },
-  {
-    "id": "q2",
-    "question": "Which language is used for styling web pages?",
-    "options": {
-      "A": "HTML",
-      "B": "CSS",
-      "C": "JavaScript",
-      "D": "PHP",
-      "E": "All of the above"
+    {
+      "id": "html_2",
+      "question": "Which language is used for styling web pages?",
+      "options": {
+        "A": "HTML",
+        "B": "CSS",
+        "C": "JavaScript"
+      },
+      "correct": "B",
+      "tip": "CSS (Cascading Style Sheets) describes how HTML elements are to be displayed on screen."
+    }
+  ],
+  "JavaScript": [
+    {
+      "id": "js_1",
+      "question": "Which of the following is a frontend JavaScript framework/library?",
+      "options": {
+        "A": "React",
+        "B": "Python",
+        "C": "Django",
+        "D": "Flask"
+      },
+      "correct": "A",
+      "tip": "React is an open-source JavaScript library developed by Facebook for building user interfaces."
     },
-    "correct": "B"
-  }
-]
+    {
+      "id": "js_2",
+      "question": "Which operator is used for strict equality comparison in JavaScript?",
+      "options": {
+        "A": "==",
+        "B": "=",
+        "C": "===",
+        "D": "=>"
+      },
+      "correct": "C",
+      "tip": "The '===' operator checks both value and data type without performing type coercion."
+    }
+  ]
+}
