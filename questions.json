@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q1",
+    "question": "What does HTML stand for?",
+    "options": {
+      "A": "Hyper Text Markup Language",
+      "B": "Home Tool Markup Language",
+      "C": "Hyperlinks and Text Markup Language"
+    },
+    "correct": "A"
+  },
+  {
+    "id": "q2",
+    "question": "Which language is used for styling web pages?",
+    "options": {
+      "A": "HTML",
+      "B": "CSS",
+      "C": "JavaScript"
+    },
+    "correct": "B"
+  },
+  {
+    "id": "q3",
+    "question": "Which of the following is a JavaScript framework/library?",
+    "options": {
+      "A": "React",
+      "B": "Python",
+      "C": "Django"
+    },
+    "correct": "A"
+  }
+]
