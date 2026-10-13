@@ -1,134 +1,1574 @@
 {
   "Türkçe": [
-    {"id": "tur_1", "question": "Aşağıdaki cümlelerin hangisinde kullanılan fiilimsi çeşidi diğerlerinden farklıdır?", "options": {"A": "Yıkanan çamaşırları astı.", "B": "Kırılan bardağı topladı.", "C": "Sararan yapraklar döküldü.", "D": "Ders çalışmak zorunludur.", "E": "Uçan kuşları izledi."}, "correct": "D", "tip": "Sıfat-fiil (partisip) isimleri nitelerken, isim-fiil (mastar) fiilin isim şeklidir ve cümlede özne/nesne görevinde bulunur. 'Çalışmak' isim-fiildir, diğerleri sıfat-fiildir."},
-    {"id": "tur_2", "question": "Aşağıdaki cümlelerin hangisinde ek fiilin hikâye birleşik çekimi kullanılmıştır?", "options": {"A": "Öğretmenmiş.", "B": "Hastaydı.", "C": "Zenginse.", "D": "Mutludur.", "E": "Yorgunmuşsa."}, "correct": "B", "tip": "Ek fiilin hikâye birleşik çekimi isim soylu sözcüğe '-di' ekinin getirilmesiyle oluşur: Hasta-y-dı."},
-    {"id": "tur_3", "question": "Aşağıdaki cümlelerin hangisi nesnel bir yargı bildirmektedir?", "options": {"A": "Bu roman gerçekten çok sıkıcıydı.", "B": "Yazarın üslubu bence oldukça zayıftı.", "C": "Kitap 350 sayfadan oluşmaktadır.", "D": "Bana kalırsa konu ilgi çekici değildi.", "E": "Kahramanların betimlenişi yetersizdi."}, "correct": "C", "tip": "Nesnel yargılar ölçülüp tartılabilen, kişiden kişiye değişmeyen ifadelerdir; sayfa sayısı gibi bir bilgi nesneldir."},
-    {"id": "tur_4", "question": "'Başarı, yalnızca yetenekle değil, o yeteneği sürekli kılan disiplinle mümkündür. Yetenekli pek çok insan, düzenli çalışma alışkanlığı geliştirmediği için potansiyelini tam olarak ortaya koyamaz.' Bu parçada asıl anlatılmak istenen nedir?", "options": {"A": "Yetenek başarı için tek başına yeterlidir.", "B": "Disiplin, yeteneği başarıya dönüştüren temel unsurdur.", "C": "Başarısızlığın tek nedeni disiplinsizliktir.", "D": "Yetenekli insanlar her zaman başarılı olur.", "E": "Çalışma alışkanlığı yetenekten daha az önemlidir."}, "correct": "B", "tip": "Parçada yetenek ile disiplin karşılaştırılmış, disiplinin yeteneği kalıcı başarıya dönüştüren unsur olduğu vurgulanmıştır."},
-    {"id": "tur_5", "question": "'Ünlü' sözcüğü aşağıdaki cümlelerin hangisinde terim anlamıyla kullanılmıştır?", "options": {"A": "Ünlü bir ressamın tablosunu satın aldı.", "B": "Türkçede sekiz ünlü harf bulunur.", "C": "Ünlü bir dizinin başrol oyuncusuydu.", "D": "Şehrin en ünlü lokantasında yemek yedik.", "E": "Ünlü bilim insanlarıyla röportaj yaptı."}, "correct": "B", "tip": "'Ünlü' sözcüğü dil bilgisinde 'sesli harf' anlamında bir terim olarak kullanılır; diğerlerinde 'tanınmış, meşhur' anlamındadır."},
-    {"id": "tur_6", "question": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yanlışlık yapılmıştır?", "options": {"A": "Geçen hafta Amasya'ya gittik.", "B": "İzmir Fuarı'nda birçok stant gezdik.", "C": "doğu Anadolu'nun kışları çok sert geçer.", "D": "Cuma günü toplantımız var.", "E": "Türkçe dersinde şiir ezberledik."}, "correct": "C", "tip": "Yön bildiren sözcükler bölge adının bir parçası olduğunda (Doğu Anadolu, Güneydoğu Anadolu gibi) büyük harfle başlar; 'Doğu Anadolu' yazılmalıdır."},
-    {"id": "tur_7", "question": "Aşağıdaki cümlelerin hangisinde sayıların yazımıyla ilgili bir yanlışlık yapılmıştır?", "options": {"A": "Sınıfta yirmi beş öğrenci vardı.", "B": "Toplantıya 15'i öğretmen olmak üzere 40 kişi katıldı.", "C": "2/3'lük bir çoğunlukla karar alındı.", "D": "Kitabın 3 üncü baskısı satışa sunuldu.", "E": "Yüz elli sayfalık bir rapor hazırladı."}, "correct": "D", "tip": "Sıra sayıları rakamla gösterildiğinde ek kesme işaretiyle ayrılır ve ekin okunuşu yazılmaz: doğrusu '3.' ya da 'üçüncü' biçimindedir."},
-    {"id": "tur_8", "question": "Aşağıdaki cümlelerin hangisinde kesme işaretinin kullanımıyla ilgili bir yanlışlık yapılmıştır?", "options": {"A": "Ahmet'in kitabını okudum.", "B": "Türkiye'nin başkenti Ankara'dır.", "C": "1919'da Samsun'a çıktı.", "D": "Öğretmenin'in söylediklerini not aldım.", "E": "Kırşehir'e giden otobüse bindik."}, "correct": "D", "tip": "Cins isimlere getirilen çekim ekleri kesme işaretiyle ayrılmaz. Doğrusu 'öğretmenin' şeklindedir."},
-    {"id": "tur_9", "question": "Aşağıdaki sözcüklerden hangisi büyük ünlü uyumuna uymaz?", "options": {"A": "Kalemlik", "B": "Anlaşılan", "C": "Yorgunluk", "D": "Televizyon", "E": "Sevgili"}, "correct": "D", "tip": "Türkçe kökenli olmayan 'televizyon' sözcüğündeki ünlüler kalın-ince uyumuna uymaz; diğer sözcükler uyuma uygundur."},
-    {"id": "tur_10", "question": "Aşağıdaki cümlelerin hangisinde ulama yoktur?", "options": {"A": "Bir elin nesi var, iki elin sesi var.", "B": "Akşam olunca eve döndük.", "C": "Kalem ve defterini masaya bıraktı.", "D": "Yorgun argın işe gitti.", "E": "Sabah erken kalktı."}, "correct": "C", "tip": "Ulama, ünsüzle biten bir sözcüğün ünlüyle başlayan sözcüğe bağlanarak okunmasıdır. Bu cümledeki sözcük çiftleri arasında ünlüyle başlayan bir sözcük olmadığından ulama yoktur."},
-    {"id": "tur_11", "question": "Aşağıdaki sözcüklerden hangisi fiil kök/gövdesinden isim yapan bir ekle türetilmiştir?", "options": {"A": "Gözlük", "B": "Tuzluk", "C": "Bilgi", "D": "Kitaplık", "E": "Elbise"}, "correct": "C", "tip": "'Bilgi' sözcüğü 'bil-' fiil köküne '-gi' ekinin getirilmesiyle türetilmiş bir fiilden isim yapım eki örneğidir; diğerleri isimden isim yapım ekleri almıştır."},
-    {"id": "tur_12", "question": "Aşağıdaki sözcüklerden hangisinde yapım eki yoktur, yalnızca çekim eki bulunur?", "options": {"A": "Gözlükçü", "B": "Sevgili", "C": "Okuyucu", "D": "Geliyordu", "E": "Balıkçı"}, "correct": "D", "tip": "'Geliyordu' sözcüğü 'gel-' fiil kökü üzerine yalnızca zaman ve kişi bildiren çekim ekleri (-iyor, -du) almıştır, yeni bir sözcük türetilmemiştir."},
-    {"id": "tur_13", "question": "Aşağıdaki cümlelerin hangisinde özne gizli (saklı) öznedir?", "options": {"A": "Öğrenciler sınava erken girdiler.", "B": "Yarın erkenden kalkacağım.", "C": "Kitaplar rafa dizilmişti.", "D": "Rüzgar ağaçları savurdu.", "E": "Çocuklar bahçede oynuyordu."}, "correct": "B", "tip": "'Yarın erkenden kalkacağım' cümlesinde özne, fiildeki kişi ekinden anlaşılan 'ben' zamiridir; cümlede açıkça yer almadığı için gizli öznedir."},
-    {"id": "tur_14", "question": "Aşağıdaki cümlelerden hangisi yüklemi bakımından isim cümlesidir?", "options": {"A": "Bahçedeki çiçekleri suladı.", "B": "Sınavdan yüksek not aldı.", "C": "Bu ev oldukça ferahtır.", "D": "Kitabı bir çırpıda bitirdi.", "E": "Arkadaşına mektup yazdı."}, "correct": "C", "tip": "Yüklemi isim soylu bir sözcük olan ve ek fiil alan cümleler isim cümlesidir. 'Ferahtır' sözcüğü ek fiil almış bir isimdir."},
-    {"id": "tur_15", "question": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?", "options": {"A": "Hem çalışıyor hem okuyor.", "B": "Yağmur yağdığı için maç ertelendi.", "C": "Ya bu akşam gel ya da yarın ara.", "D": "Ne yedi ne içti.", "E": "Gelirse haber ver."}, "correct": "B", "tip": "'...için' bağlacıyla kurulan cümlede yağmurun yağması (neden), maçın ertelenmesine (sonuç) yol açmıştır."},
-    {"id": "tur_16", "question": "Aşağıdaki cümlelerin hangisinde koşula bağlılık söz konusudur?", "options": {"A": "Ders çalışırsan başarırsın.", "B": "Bugün hava çok sıcak.", "C": "Dün akşam erken yattım.", "D": "Kitabı bitirdi ve dışarı çıktı.", "E": "Sinemaya gittik, film güzeldi."}, "correct": "A", "tip": "'-sa/-se' şart ekiyle kurulan cümlede bir eylemin gerçekleşmesi başka bir eylemin gerçekleşmesine bağlı kılınmıştır (koşul-sonuç ilişkisi)."},
-    {"id": "tur_17", "question": "'Kulak asmamak' deyimi aşağıdaki cümlelerin hangisinde uygun anlamda kullanılmıştır?", "options": {"A": "Söylenenlere kulak asmadan yoluna devam etti.", "B": "Kulakları çınlasın, tam da onu konuşuyorduk.", "C": "Bu haberi duyunca kulaklarına inanamadı.", "D": "Kulak misafiri olduğu konuşmayı unutamadı.", "E": "Kulağına küpe olsun dedi ve gitti."}, "correct": "A", "tip": "'Kulak asmamak' bir söze veya öğüde önem vermemek, aldırış etmemek anlamında kullanılan bir deyimdir."},
-    {"id": "tur_18", "question": "'Damlaya damlaya göl olur.' atasözü aşağıdaki durumlardan hangisini anlatır?", "options": {"A": "Ani kararların yanlış sonuçlar doğurmasını", "B": "Küçük birikimlerin zamanla büyük bir varlık oluşturmasını", "C": "Doğanın kendi dengesini kurmasını", "D": "İnsanların birbirine yardım etmesi gerektiğini", "E": "Sabrın her zaman sonuç vermeyeceğini"}, "correct": "B", "tip": "Bu atasözü, küçük birikimlerin zamanla büyük bir varlığa dönüşebileceğini anlatır."},
-    {"id": "tur_19", "question": "'Yüz' sözcüğü aşağıdaki cümlelerin hangisinde 'sayı' anlamında kullanılmıştır?", "options": {"A": "Denizde saatlerce yüzdü.", "B": "Yüzünü güzelce yıkadı.", "C": "Çantada yüz lira parası vardı.", "D": "Ona yüz vermemek gerekir.", "E": "Elbisenin yüzü lekelenmişti."}, "correct": "C", "tip": "'Yüz' sözcüğü Türkçede birden fazla anlamda kullanılan bir sesteş sözcüktür; burada '100' sayısını karşılamaktadır."},
-    {"id": "tur_20", "question": "Aşağıdaki cümlelerden hangisi yapıca bağlı cümledir?", "options": {"A": "Kitabı okudu, sonra uyudu.", "B": "Yağmur yağıyor ama biz yine de çıkacağız.", "C": "Bahçedeki güller açtı.", "D": "Koşarak gelen çocuk düştü.", "E": "Ne yaptığını bilmiyordu."}, "correct": "B", "tip": "İki ya da daha fazla cümlenin bağlaçla birbirine bağlanmasıyla oluşan cümlelere bağlı cümle denir; burada 'ama' bağlacı iki cümleyi bağlamıştır."},
-    {"id": "tur_21", "question": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?", "options": {"A": "Herkes kendi işini kendisi yapmalı.", "B": "Sınıftaki bütün öğrencilerin tamamı sınavı geçti.", "C": "Çocuklar bahçede oynuyordu.", "D": "Öğretmen dersi sabırla anlattı.", "E": "İki kardeş birbirine çok benziyordu."}, "correct": "B", "tip": "'Bütün' ve 'tamamı' sözcükleri anlamca aynı kavramı karşıladığından cümlede gereksiz sözcük tekrarı (anlam çakışması) vardır."},
-    {"id": "tur_22", "question": "Aşağıdaki cümlelerin hangisinde bir anlatım bozukluğu vardır?", "options": {"A": "Bu kitabı okuyan herkes beğendi.", "B": "Sınıfın en zeki ve en çalışkan öğrencilerinden biriydi.", "C": "Toplantıya katılan katılmayan herkes bilgilendirildi.", "D": "Trafik kazasında yaralanan ölmüştü.", "E": "Öğretmenler odasında toplandı."}, "correct": "D", "tip": "Bir kişi ya yaralanır ya da ölür; 'yaralanan ölmüştü' ifadesi çelişkili, mantık hatası içeren bir anlatımdır."},
-    {"id": "tur_23", "question": "Aşağıdaki cümlelerin hangisinde 'de' nin yazımı yanlıştır?", "options": {"A": "O da bizimle gelecekmiş.", "B": "Kitabı masada bıraktım.", "C": "Sende bana yardım etmedin.", "D": "Yağmur yağsa da çıkacağız.", "E": "Onlar da toplantıya katıldı."}, "correct": "C", "tip": "Buradaki 'de' bağlaç olup 'dahi' anlamı taşır, bu nedenle ayrı yazılmalıdır: doğrusu 'Sen de bana yardım etmedin.' şeklindedir."},
-    {"id": "tur_24", "question": "Aşağıdaki cümlelerin hangisinde 'ki' nin yazımı yanlıştır?", "options": {"A": "Sabahki soğuk hava akşama kadar sürdü.", "B": "Bahçedeki çiçekler solmuş.", "C": "Sanki hiçbir şey olmamış gibi davrandı.", "D": "Duydumki bu haber doğruymuş.", "E": "Onunki benimkinden daha güzeldi."}, "correct": "D", "tip": "Bağlaç olan 'ki' her zaman ayrı yazılır: doğrusu 'Duydum ki' şeklindedir."},
-    {"id": "tur_25", "question": "Aşağıdakilerden hangisi bir tanım cümlesidir?", "options": {"A": "Roman, olmuş ya da olabilecek olayları anlatan uzun bir anlatı türüdür.", "B": "Bu roman gerçekten çok etkileyiciydi.", "C": "Romanı bir haftada bitirdi.", "D": "Romanlar genellikle uzun olur.", "E": "Bu yazarın en iyi romanı budur."}, "correct": "A", "tip": "Tanım cümleleri bir kavramın ne olduğunu, 'nedir' sorusuna cevap verecek şekilde açıklar; öznel yargı içermez."},
-    {"id": "tur_26", "question": "Aşağıdaki dizelerin hangisinde kişileştirme (teşhis) sanatı vardır?", "options": {"A": "Gözlerin deniz gibi mavi.", "B": "Rüzgar kapıları usulca çaldı.", "C": "Yüreğim bir yangın yeri sanki.", "D": "Aşkım bir okyanus kadar derin.", "E": "Sesi bülbül gibi tatlıydı."}, "correct": "B", "tip": "Kişileştirme, insana özgü bir özelliğin insan dışı bir varlığa aktarılmasıdır; burada rüzgara 'kapı çalma' eylemi yakıştırılmıştır."},
-    {"id": "tur_27", "question": "Aşağıdaki cümlelerin hangisinde zarf tümleci (belirteç tümleci) vardır?", "options": {"A": "Kitabı masaya bıraktı.", "B": "Çok yorgun bir şekilde eve döndü.", "C": "Öğretmen sınıfa girdi.", "D": "Kardeşim İstanbul'a taşındı.", "E": "Kardeşim sınavı kazandı."}, "correct": "B", "tip": "'Çok yorgun bir şekilde' ifadesi eylemin nasıl gerçekleştiğini bildiren bir zarf tümlecidir."},
-    {"id": "tur_28", "question": "Aşağıdaki cümlelerin hangisinde belirtisiz nesne kullanılmıştır?", "options": {"A": "Kitabı okudu.", "B": "Çantayı masaya koydu.", "C": "Akşam yemek yaptı.", "D": "Onu dün gördüm.", "E": "Mektubu postaladı."}, "correct": "C", "tip": "'Yemek' sözcüğü yalın hâldedir (belirtme eki almamıştır), bu nedenle belirtisiz nesnedir; diğerleri '-i' belirtme eki almış belirtili nesnelerdir."},
-    {"id": "tur_29", "question": "'Sözgelimi, Ahmet Haşim şiirlerinde sıkça akşam ve alacakaranlık imgelerine yer vermiştir.' cümlesinde düşünceyi geliştirme yollarından hangisi kullanılmıştır?", "options": {"A": "Tanık gösterme", "B": "Örnekleme", "C": "Karşılaştırma", "D": "Sayısal verilerden yararlanma", "E": "Benzetme"}, "correct": "B", "tip": "'Sözgelimi' ifadesiyle somut bir örnek verilerek düşünce desteklenmiştir; bu örnekleme yöntemidir."},
-    {"id": "tur_30", "question": "Aşağıdaki cümlelerin hangisinde edilgen (meçhul) çatılı bir fiil kullanılmıştır?", "options": {"A": "Kapı açıldı.", "B": "Çocuklar birbirine sarıldı.", "C": "Öğretmen dersi anlattı.", "D": "Elini yıkadı.", "E": "Bahçede oynadılar."}, "correct": "A", "tip": "Öznenin bilinmediği ya da belirtilmediği, işin kendiliğinden yapıldığı fiiller edilgen çatılıdır: 'Kapı (biri tarafından) açıldı.'"}
+    {
+      "id": "tur_1",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf-fiil kullanılmıştır?",
+      "options": {
+        "A": "Bilinen yöntem yeniden denendi.",
+        "B": "Okunacak kitapları masaya bıraktı.",
+        "C": "Öğrencilerin çözdüğü sorular kontrol edildi.",
+        "D": "Düzenli çalışmak başarıyı kolaylaştırır.",
+        "E": "Kütüphaneden çıkınca arkadaşını aradı."
+      },
+      "correct": "E",
+      "tip": "‘Çıkınca’ eylemin hangi zaman/koşulda gerçekleştiğini bildirir ve -ınca ekiyle kurulmuş zarf-fiildir."
+    },
+    {
+      "id": "tur_2",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin hikâye birleşik çekimi vardır?",
+      "options": {
+        "A": "Komşumuz öğretmendir.",
+        "B": "Hava soğuksa pencereyi kapat.",
+        "C": "Bu sokak eskiden çok sakindi.",
+        "D": "Salon akşamları sessizmiş.",
+        "E": "Yarışmacı oldukça heyecanlıymış."
+      },
+      "correct": "C",
+      "tip": "‘Sakin-di’ yapısında isim soylu sözcük ek fiilin görülen geçmiş zaman biçimini almıştır."
+    },
+    {
+      "id": "tur_3",
+      "question": "Aşağıdaki yargılardan hangisi nesnel olarak doğrulanabilir?",
+      "options": {
+        "A": "Öykünün sonu oldukça etkileyiciydi.",
+        "B": "Yazarın en başarılı eseri bu romandır.",
+        "C": "Oyuncunun performansı kusursuzdu.",
+        "D": "Rapor toplam 48 sayfadan oluşuyor.",
+        "E": "Şiirin dili gereğinden fazla ağırdır."
+      },
+      "correct": "D",
+      "tip": "Sayfa sayısı ölçülebilir ve kişisel beğeniye bağlı değildir; bu nedenle nesnel bir bilgidir."
+    },
+    {
+      "id": "tur_4",
+      "question": "“Bir hedefe ulaşmak, yalnızca istek duymaya değil, bu isteği düzenli bir çabayla desteklemeye bağlıdır. Küçük ama sürekli adımlar, çoğu zaman kısa süreli yoğun çabalardan daha kalıcı sonuçlar verir.” Bu parçanın ana düşüncesi hangisidir?",
+      "options": {
+        "A": "Başarıda yalnızca doğuştan gelen yetenek belirleyicidir.",
+        "B": "Kısa süreli çalışmalar hiçbir koşulda yarar sağlamaz.",
+        "C": "Düzenli ve süreklilik gösteren çaba başarıyı destekler.",
+        "D": "Büyük hedeflere ulaşmak için dinlenmeden çalışmak gerekir.",
+        "E": "İstek duymak, hedefe ulaşmak için yeterli bir etkendir."
+      },
+      "correct": "C",
+      "tip": "Parçada başarı için isteğin yanında süreklilik taşıyan çabanın gerekli olduğu vurgulanır."
+    },
+    {
+      "id": "tur_5",
+      "question": "“Kök” sözcüğü aşağıdaki cümlelerin hangisinde terim anlamıyla kullanılmıştır?",
+      "options": {
+        "A": "Bu sözcüğün kökü “gör-” fiilidir.",
+        "B": "Ailenin kökleri bu kasabaya dayanıyor.",
+        "C": "Sorunun kökünü bulmadan çözüm üretilemez.",
+        "D": "Ağacın kökü duvarın altına kadar uzanmış.",
+        "E": "Kötü alışkanlıkların kök salmasını önledi."
+      },
+      "correct": "A",
+      "tip": "Dil bilgisinde “kök”, sözcüğün anlamlı en küçük parçasını karşılayan terimdir."
+    },
+    {
+      "id": "tur_6",
+      "question": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımı yanlıştır?",
+      "options": {
+        "A": "Annem gelecek cuma Ankara’ya dönecek.",
+        "B": "Türkçe dersinde yazım kurallarını işledik.",
+        "C": "Sakarya Nehri Karadeniz’e dökülür.",
+        "D": "Yaz tatilinde Kars’a gideceğiz.",
+        "E": "Kardeşim doğu Anadolu’da görev yapıyor."
+      },
+      "correct": "E",
+      "tip": "Bölge adı olan “Doğu Anadolu” büyük harfle başlamalıdır; “doğu Anadolu” yazımı yanlıştır."
+    },
+    {
+      "id": "tur_7",
+      "question": "Aşağıdaki cümlelerin hangisinde sayıların yazımı yanlıştır?",
+      "options": {
+        "A": "Başvurular 7 Ekim’de sona erecek.",
+        "B": "Bu yıl 125 kitap bağışlandı.",
+        "C": "Binanın 3 üncü katında yeni bir sınıf açıldı.",
+        "D": "Toplantıya yirmi dört kişi katıldı.",
+        "E": "Yarışmada 2’nci sırayı aldı."
+      },
+      "correct": "C",
+      "tip": "Sıra sayıları rakamla ya nokta kullanılarak (3.) ya da kesme işaretiyle ek getirilerek (3’üncü) yazılır; “3 üncü” yanlıştır."
+    },
+    {
+      "id": "tur_8",
+      "question": "Kesme işaretinin kullanımı hangi cümlede yanlıştır?",
+      "options": {
+        "A": "Türkiye’nin başkenti Ankara’dır.",
+        "B": "Doktor’un önerilerini dikkatle dinledi.",
+        "C": "Ece’nin defteri sıranın üzerindeydi.",
+        "D": "1923’te Cumhuriyet ilan edildi.",
+        "E": "Mersin’e akşam saatlerinde ulaştık."
+      },
+      "correct": "B",
+      "tip": "Meslek ve unvan bildiren cins adlara gelen çekim ekleri kesme işaretiyle ayrılmaz: “doktorun önerileri”."
+    },
+    {
+      "id": "tur_9",
+      "question": "Aşağıdaki sözcüklerden hangisi büyük ünlü uyumuna uymaz?",
+      "options": {
+        "A": "Gözlükçü",
+        "B": "Çocuklar",
+        "C": "Kapılar",
+        "D": "Kalemlik",
+        "E": "Odunluk"
+      },
+      "correct": "D",
+      "tip": "“Kalemlik” sözcüğünde kalın “a” ünlüsünden sonra ince “e” ve “i” geldiği için büyük ünlü uyumu yoktur."
+    },
+    {
+      "id": "tur_10",
+      "question": "Aşağıdaki cümlelerin hangisinde ulama yapılmaz?",
+      "options": {
+        "A": "Bir an bekledi.",
+        "B": "Kalem ve defter masadaydı.",
+        "C": "Dost acı söyler.",
+        "D": "Son umut yeniden doğdu.",
+        "E": "Küçük adımlar büyük sonuçlar doğurur."
+      },
+      "correct": "B",
+      "tip": "Ulama, ünsüzle biten sözcüğün ünlüyle başlayan sonraki sözcüğe bağlanarak okunmasıdır. “Kalem ve defter” söz gruplarında bu koşulu sağlayan bir geçiş yoktur."
+    },
+    {
+      "id": "tur_11",
+      "question": "Aşağıdaki sözcüklerden hangisi fiilden isim yapan bir yapım ekiyle türemiştir?",
+      "options": {
+        "A": "Kitaplık",
+        "B": "Tuzluk",
+        "C": "Gözlük",
+        "D": "Bilgi",
+        "E": "Elbise"
+      },
+      "correct": "D",
+      "tip": "“Bilgi”, “bil-” fiil köküne fiilden isim yapan “-gi” eki getirilerek türetilmiştir."
+    },
+    {
+      "id": "tur_12",
+      "question": "Aşağıdaki sözcüklerden hangisinde yapım eki bulunmaz?",
+      "options": {
+        "A": "Okuyucu",
+        "B": "Balıkçı",
+        "C": "Sevgi",
+        "D": "Gözlükçü",
+        "E": "Yazacakmış"
+      },
+      "correct": "E",
+      "tip": "“Yazacakmış” sözcüğündeki ekler kip/zaman ve ek fiil görevindedir; yeni bir sözcük türeten yapım eki yoktur."
+    },
+    {
+      "id": "tur_13",
+      "question": "Aşağıdaki cümlelerin hangisinde özne cümlede açıkça belirtilmemiştir?",
+      "options": {
+        "A": "Fırtına birkaç ağacı devirdi.",
+        "B": "Yarın kütüphaneye uğrayacağım.",
+        "C": "Çocuklar parkta saklambaç oynadı.",
+        "D": "Komşular sabah erkenden yola çıktı.",
+        "E": "Kuşlar çatının üzerine kondu."
+      },
+      "correct": "B",
+      "tip": "“Uğrayacağım” yüklemindeki birinci tekil kişi eki öznenin “ben” olduğunu gösterir; özne açıkça yazılmamıştır."
+    },
+    {
+      "id": "tur_14",
+      "question": "Aşağıdaki cümlelerden hangisi yükleminin türüne göre isim cümlesidir?",
+      "options": {
+        "A": "Babam gazeteyi masaya bıraktı.",
+        "B": "Bu sokak akşamları oldukça sakindir.",
+        "C": "Çocuklar bahçede koşuyordu.",
+        "D": "Öğrenciler soruları dikkatle çözdü.",
+        "E": "Tren istasyondan saat sekizde ayrıldı."
+      },
+      "correct": "B",
+      "tip": "“Sakindir” isim soylu “sakin” sözcüğünün ek fiil almış biçimidir; yüklem isimdir."
+    },
+    {
+      "id": "tur_15",
+      "question": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
+      "options": {
+        "A": "Yollar buz tuttuğu için servis gecikti.",
+        "B": "Daha iyi anlamak amacıyla not aldı.",
+        "C": "Kitabı bitirince arkadaşına verdi.",
+        "D": "Sınavdan sonra biraz dinlendi.",
+        "E": "Ya bugün bizi ara ya da yarın uğra."
+      },
+      "correct": "A",
+      "tip": "Yolların buz tutması neden, servisin gecikmesi sonuçtur."
+    },
+    {
+      "id": "tur_16",
+      "question": "Aşağıdaki cümlelerin hangisinde koşul-sonuç ilişkisi vardır?",
+      "options": {
+        "A": "Düzenli tekrar yaparsan konuyu unutmazsın.",
+        "B": "Toplantı saat dokuzda başladı.",
+        "C": "Bugün hava düne göre daha serin.",
+        "D": "Ödevini bitirdi ve odasını topladı.",
+        "E": "Yol uzun olduğu için erken çıktık."
+      },
+      "correct": "A",
+      "tip": "“Yaparsan” koşul ekiyle kurulan bölüm, sonraki eylemin gerçekleşmesini bir şarta bağlar."
+    },
+    {
+      "id": "tur_17",
+      "question": "“Kulak asmamak” deyimi hangi cümlede doğru anlamda kullanılmıştır?",
+      "options": {
+        "A": "Annesinin öğüdünü kulağına küpe yaptı.",
+        "B": "Haberi duyunca kulaklarına inanamadı.",
+        "C": "Uyarıları dinlemedi, söylenenlere kulak asmadı.",
+        "D": "Eski dostunu görünce kulakları çınladı.",
+        "E": "Konuşmayı kapının arkasından dinleyip kulak misafiri oldu."
+      },
+      "correct": "C",
+      "tip": "“Kulak asmamak”, söylenene önem vermemek ve aldırış etmemek anlamına gelir."
+    },
+    {
+      "id": "tur_18",
+      "question": "“Bir elin nesi var, iki elin sesi var.” atasözü hangi düşünceyi destekler?",
+      "options": {
+        "A": "İşler aceleye getirilmemelidir.",
+        "B": "Yardım istemek başarısızlık göstergesidir.",
+        "C": "Birlikte hareket etmek gücü ve başarıyı artırır.",
+        "D": "Her insan kendi çıkarını korumalıdır.",
+        "E": "Başarı için yalnız çalışmak gerekir."
+      },
+      "correct": "C",
+      "tip": "Atasözü, dayanışmanın tek başına yapılan çalışmaya göre daha güçlü sonuçlar doğurabileceğini anlatır."
+    },
+    {
+      "id": "tur_19",
+      "question": "“Yüz” sözcüğü hangi cümlede sayı anlamında kullanılmıştır?",
+      "options": {
+        "A": "Bu davranışına yüz vermemelisin.",
+        "B": "Kitap için yüz lira ödedi.",
+        "C": "Denizde yarım saat yüzdü.",
+        "D": "Yüzünü soğuk suyla yıkadı.",
+        "E": "Masanın yüzü çizilmişti."
+      },
+      "correct": "B",
+      "tip": "Bu cümlede “yüz”, 100 sayısını karşılar; diğer seçeneklerde farklı anlamlarda kullanılmıştır."
+    },
+    {
+      "id": "tur_20",
+      "question": "Aşağıdaki cümlelerden hangisi bağlı cümledir?",
+      "options": {
+        "A": "Zil çaldı ve öğrenciler sınıfa girdi.",
+        "B": "Onun ne söylediğini anlayamadım.",
+        "C": "Bahçedeki ağaçlar çiçek açtı.",
+        "D": "Koşarak gelen çocuk kapıyı çaldı.",
+        "E": "Yağmur dinince dışarı çıktık."
+      },
+      "correct": "A",
+      "tip": "“Ve” bağlacı iki yüklemli yargıyı birbirine bağladığı için cümle bağlı cümledir."
+    },
+    {
+      "id": "tur_21",
+      "question": "Hangi cümlede gereksiz sözcük kullanımından doğan anlatım bozukluğu vardır?",
+      "options": {
+        "A": "Herkes kendi kararını kendisi verdi.",
+        "B": "Ders başlamadan önce sınıfa girdik.",
+        "C": "Toplantı beklenenden erken bitti.",
+        "D": "Yaklaşık üç saat boyunca bekledik.",
+        "E": "Bu konuyu yeniden tekrar etmemiz gerekiyor."
+      },
+      "correct": "E",
+      "tip": "“Yeniden” ve “tekrar” aynı anlamı verdiğinden birinin çıkarılması gerekir."
+    },
+    {
+      "id": "tur_22",
+      "question": "Hangi cümlede anlatım bozukluğu vardır?",
+      "options": {
+        "A": "Katılımcılar sorularını konuşmacıya yöneltti.",
+        "B": "Bu iki seçenek arasında tercih yapmalısın.",
+        "C": "Öğretmen konuyu örneklerle açıkladı.",
+        "D": "Karşılıklı olarak birbirlerine mektup yazdılar.",
+        "E": "Sınava giren herkes kimliğini yanında bulundurmalı."
+      },
+      "correct": "D",
+      "tip": "“Karşılıklı olarak” ve “birbirlerine” aynı karşılıklılık anlamını verir; bunlardan biri çıkarılmalıdır."
+    },
+    {
+      "id": "tur_23",
+      "question": "Aşağıdaki cümlelerin hangisinde “de”nin yazımı yanlıştır?",
+      "options": {
+        "A": "Ben de sizinle geleceğim.",
+        "B": "Sen de bu soruyu çözebilirsin.",
+        "C": "Anahtar masada duruyor.",
+        "D": "Bende yarın sizinle geleceğim.",
+        "E": "Evde kimse yoktu."
+      },
+      "correct": "D",
+      "tip": "Bu cümledeki “de” bağlaçtır ve ayrı yazılmalıdır: “Ben de yarın sizinle geleceğim.”"
+    },
+    {
+      "id": "tur_24",
+      "question": "Aşağıdaki cümlelerin hangisinde “ki”nin yazımı yanlıştır?",
+      "options": {
+        "A": "Anladımki konu değişmiş.",
+        "B": "Öyle yorgundu ki hemen uyudu.",
+        "C": "Biliyorum ki başaracaksın.",
+        "D": "Evdeki hesap çarşıya uymadı.",
+        "E": "Dünkü toplantı uzun sürdü."
+      },
+      "correct": "A",
+      "tip": "Bağlaç olan “ki” ayrı yazılır: “Anladım ki konu değişmiş.”"
+    },
+    {
+      "id": "tur_25",
+      "question": "Aşağıdakilerden hangisi tanım cümlesidir?",
+      "options": {
+        "A": "Masal, olağanüstü olayların anlatıldığı bir sözlü ya da yazılı anlatı türüdür.",
+        "B": "Masalların çoğu kısa sürede okunur.",
+        "C": "En etkileyici masal bu kitaptaydı.",
+        "D": "Bu masalı çocukken çok severdim.",
+        "E": "Anlattığı masal herkesi güldürdü."
+      },
+      "correct": "A",
+      "tip": "Tanım cümlesi, kavramın ne olduğunu açıklayarak “Bu nedir?” sorusuna yanıt verir."
+    },
+    {
+      "id": "tur_26",
+      "question": "Aşağıdaki cümlelerin hangisinde kişileştirme sanatı vardır?",
+      "options": {
+        "A": "Gökyüzü pamuk gibi beyaz bulutlarla doluydu.",
+        "B": "Deniz, mavi bir örtüyü andırıyordu.",
+        "C": "Rüzgâr bütün gece penceremize dert anlattı.",
+        "D": "Dağlar uzaktan dev duvarlar gibi görünüyordu.",
+        "E": "Çocuğun sesi kuş sesi kadar inceydi."
+      },
+      "correct": "C",
+      "tip": "İnsana özgü “dert anlatmak” eylemi rüzgâra yüklenerek kişileştirme yapılmıştır."
+    },
+    {
+      "id": "tur_27",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf tümleci vardır?",
+      "options": {
+        "A": "Otobüs durağın önünde durdu.",
+        "B": "Çantasını sandalyenin üzerine bıraktı.",
+        "C": "Öğrenciler kütüphaneye gitti.",
+        "D": "Soruları dikkatlice yanıtladı.",
+        "E": "Kardeşim İzmir’e taşındı."
+      },
+      "correct": "D",
+      "tip": "“Dikkatlice” eylemin nasıl yapıldığını belirten durum zarfıdır ve zarf tümleci görevindedir."
+    },
+    {
+      "id": "tur_28",
+      "question": "Aşağıdaki cümlelerin hangisinde belirtisiz nesne vardır?",
+      "options": {
+        "A": "Görevli kapıyı yavaşça kapattı.",
+        "B": "Akşam misafirlere çorba hazırladı.",
+        "C": "Dün onu okulda gördüm.",
+        "D": "Mektubu postaneden gönderdi.",
+        "E": "Dosyayı masanın üzerine koydu."
+      },
+      "correct": "B",
+      "tip": "“Çorba” belirtme hâl eki almamış, “ne hazırladı?” sorusuna yanıt veren belirtisiz nesnedir."
+    },
+    {
+      "id": "tur_29",
+      "question": "“Örneğin, bazı bitkiler kuraklığa dayanabilmek için yaprak yüzeylerini küçültür.” cümlesinde düşünceyi geliştirme yollarından hangisi kullanılmıştır?",
+      "options": {
+        "A": "Benzetme",
+        "B": "Sayısal verilerden yararlanma",
+        "C": "Tanık gösterme",
+        "D": "Karşılaştırma",
+        "E": "Örnekleme"
+      },
+      "correct": "E",
+      "tip": "“Örneğin” sözüyle düşünceyi somutlaştıran bir örnek verilmiştir."
+    },
+    {
+      "id": "tur_30",
+      "question": "Hangi cümlede edilgen çatılı fiil kullanılmıştır?",
+      "options": {
+        "A": "Öğrenci soruları dikkatle çözdü.",
+        "B": "Sporcular birbirini tebrik etti.",
+        "C": "Görevli evrakları öğleden önce teslim etti.",
+        "D": "Çocuklar tören alanında toplandı.",
+        "E": "Yeni köprü geçen ay hizmete açıldı."
+      },
+      "correct": "E",
+      "tip": "“Açıldı” fiilinde işi yapan belirtilmemiş, özne yapılan işten etkilenmiştir; fiil edilgen çatılıdır."
+    }
   ],
   "Matematik": [
-    {"id": "mat_1", "question": "Üç basamaklı en büyük sayı ile iki basamaklı en küçük sayının farkı kaçtır?", "options": {"A": "979", "B": "985", "C": "989", "D": "991", "E": "995"}, "correct": "C", "tip": "Üç basamaklı en büyük sayı 999, iki basamaklı en küçük sayı 10'dur. 999 - 10 = 989."},
-    {"id": "mat_2", "question": "Aşağıdaki sayılardan hangisi hem 4 hem de 6'ya tam bölünür?", "options": {"A": "16", "B": "18", "C": "24", "D": "30", "E": "42"}, "correct": "C", "tip": "4 ve 6'ya tam bölünen sayılar bu iki sayının EKOK'u olan 12'ye bölünmelidir. 24, 12'nin katıdır."},
-    {"id": "mat_3", "question": "Bir baba ile oğlunun yaşları toplamı 50'dir. 5 yıl sonra babanın yaşı oğlunun yaşının 3 katı olacağına göre oğlun şu anki yaşı kaçtır?", "options": {"A": "8", "B": "10", "C": "12", "D": "14", "E": "16"}, "correct": "B", "tip": "Oğlun yaşı x, babanın yaşı (50-x) olsun. 5 yıl sonra: 50-x+5 = 3(x+5) => 55-x = 3x+15 => 40 = 4x => x = 10."},
-    {"id": "mat_4", "question": "Bir havuzu dolduran musluk tek başına 6 saatte, boşaltan musluk ise tek başına 8 saatte havuzu boşaltmaktadır. Her iki musluk birlikte açılırsa havuz kaç saatte dolar?", "options": {"A": "18", "B": "20", "C": "22", "D": "24", "E": "26"}, "correct": "D", "tip": "Birleşik doldurma hızı 1/6 - 1/8 = 4/24 - 3/24 = 1/24'tür. Havuz 24 saatte dolar."},
-    {"id": "mat_5", "question": "Bir tüccar, aldığı malı %20 zararla sattığında 800 TL elde ediyor. Buna göre malın alış fiyatı kaç TL'dir?", "options": {"A": "900", "B": "960", "C": "1000", "D": "1050", "E": "1100"}, "correct": "C", "tip": "Satış fiyatı = Alış fiyatı x 0,8 = 800 TL. Buradan alış fiyatı 1000 TL bulunur."},
-    {"id": "mat_6", "question": "10.000 TL, yıllık %15 basit faiz oranıyla 2 yıl bankada tutulursa elde edilen faiz geliri kaç TL olur?", "options": {"A": "1500", "B": "2000", "C": "2500", "D": "3000", "E": "3500"}, "correct": "D", "tip": "Basit faiz = Anapara x Oran x Süre = 10.000 x 0,15 x 2 = 3000 TL."},
-    {"id": "mat_7", "question": "Birbirine 300 km uzaklıktaki iki şehirden aynı anda karşılıklı yola çıkan iki araçtan biri 60 km/s, diğeri 90 km/s hızla gitmektedir. Bu iki araç kaç saat sonra karşılaşır?", "options": {"A": "1.5", "B": "2", "C": "2.5", "D": "3", "E": "3.5"}, "correct": "B", "tip": "Araçların hızları toplamı 150 km/s'dir. 300 / 150 = 2 saat sonra karşılaşırlar."},
-    {"id": "mat_8", "question": "30 kişilik bir sınıfta 18 öğrenci futbol, 15 öğrenci basketbol oynamaktadır. Her iki sporu da oynayan 8 öğrenci olduğuna göre, hiçbir spor oynamayan öğrenci sayısı kaçtır?", "options": {"A": "3", "B": "4", "C": "5", "D": "6", "E": "7"}, "correct": "C", "tip": "En az bir sporu oynayan öğrenci sayısı 18+15-8=25'tir. 30-25=5 öğrenci hiçbir spor oynamaz."},
-    {"id": "mat_9", "question": "Bir torbada 4 kırmızı, 3 mavi, 5 sarı top vardır. Torbadan rastgele çekilen bir topun mavi olma olasılığı kaçtır?", "options": {"A": "1/6", "B": "1/4", "C": "1/3", "D": "5/12", "E": "1/2"}, "correct": "B", "tip": "Toplam top sayısı 12, mavi top sayısı 3'tür. Olasılık = 3/12 = 1/4."},
-    {"id": "mat_10", "question": "A, B, C, D harfleriyle tekrarsız olarak kaç farklı 4 harfli sıralama oluşturulabilir?", "options": {"A": "12", "B": "16", "C": "20", "D": "24", "E": "32"}, "correct": "D", "tip": "4 farklı harfin sıralanma sayısı 4! = 4x3x2x1 = 24'tür."},
-    {"id": "mat_11", "question": "Bir sayının 3 katının 7 fazlası, aynı sayının 5 katının 3 eksiğine eşittir. Bu sayı kaçtır?", "options": {"A": "3", "B": "4", "C": "5", "D": "6", "E": "7"}, "correct": "C", "tip": "3x + 7 = 5x - 3 => 10 = 2x => x = 5."},
-    {"id": "mat_12", "question": "Taban uzunluğu 12 cm, yüksekliği 8 cm olan üçgenin alanı kaç cm²'dir?", "options": {"A": "36", "B": "40", "C": "44", "D": "48", "E": "52"}, "correct": "D", "tip": "Üçgenin alanı (taban x yükseklik)/2 formülüyle (12x8)/2 = 48 cm² bulunur."},
-    {"id": "mat_13", "question": "Bir dikdörtgenin çevresi 60 cm, uzun kenarı kısa kenarının 2 katıdır. Buna göre dikdörtgenin alanı kaç cm²'dir?", "options": {"A": "150", "B": "180", "C": "200", "D": "220", "E": "240"}, "correct": "C", "tip": "2(a+b)=60 => a+b=30. a=2b olduğundan 3b=30 => b=10, a=20. Alan = 20x10 = 200 cm²."},
-    {"id": "mat_14", "question": "Yarıçapı 7 cm olan bir çemberin çevresi kaç cm'dir? (π=22/7 alınız)", "options": {"A": "22", "B": "33", "C": "44", "D": "55", "E": "66"}, "correct": "C", "tip": "Çevre = 2πr = 2 x (22/7) x 7 = 44 cm."},
-    {"id": "mat_15", "question": "Bir haritada 2 cm, gerçekte 50 km'yi göstermektedir. Bu haritada 7 cm gerçekte kaç km'yi gösterir?", "options": {"A": "150", "B": "160", "C": "175", "D": "180", "E": "200"}, "correct": "C", "tip": "2 cm = 50 km ise 1 cm = 25 km'dir. 7 cm = 7x25 = 175 km."},
-    {"id": "mat_16", "question": "Bir işi 8 işçi 15 günde bitirmektedir. Aynı iş 5 günde bitirilmek istenirse kaç işçi çalıştırılmalıdır?", "options": {"A": "20", "B": "22", "C": "24", "D": "26", "E": "28"}, "correct": "C", "tip": "İşçi sayısı x gün sabittir: 8x15 = 120. 120/5 = 24 işçi gerekir."},
-    {"id": "mat_17", "question": "2, 5, 10, 17, 26, ... dizisinde bir sonraki terim kaçtır?", "options": {"A": "33", "B": "35", "C": "37", "D": "39", "E": "41"}, "correct": "C", "tip": "Ardışık terimler arasındaki farklar 3, 5, 7, 9, 11 şeklinde artmaktadır. 26 + 11 = 37."},
-    {"id": "mat_18", "question": "180 sayısının asal çarpanlarına ayrılmış hâli aşağıdakilerden hangisidir?", "options": {"A": "2²x3²x5", "B": "2x3³x5", "C": "2³x3x5", "D": "2²x3x5²", "E": "2x3²x5²"}, "correct": "A", "tip": "180 = 4x45 = 2²x9x5 = 2²x3²x5 şeklinde asal çarpanlarına ayrılır."},
-    {"id": "mat_19", "question": "18 ve 24 sayılarının en küçük ortak katı (EKOK) kaçtır?", "options": {"A": "48", "B": "54", "C": "64", "D": "72", "E": "96"}, "correct": "D", "tip": "18 = 2x3², 24 = 2³x3. EKOK için her asal çarpanın en büyük kuvveti alınır: 2³x3² = 72."},
-    {"id": "mat_20", "question": "%20'lik 300 gram tuzlu su çözeltisine kaç gram saf su eklenirse çözelti %12'lik olur?", "options": {"A": "150", "B": "180", "C": "200", "D": "220", "E": "250"}, "correct": "C", "tip": "Tuz miktarı 300x0,20=60 g sabit kalır. Yeni toplam çözelti 60/0,12=500 g olmalıdır. Eklenecek su: 500-300=200 g."},
-    {"id": "mat_21", "question": "Ardışık 4 tek sayının toplamı 96 olduğuna göre bu sayıların en büyüğü kaçtır?", "options": {"A": "23", "B": "25", "C": "27", "D": "29", "E": "31"}, "correct": "C", "tip": "Sayılar x, x+2, x+4, x+6 olsun. 4x+12=96 => x=21. En büyük sayı 21+6=27."},
-    {"id": "mat_22", "question": "Bir ürünün fiyatına önce %10 zam yapılıyor, ardından yeni fiyattan %10 indirim yapılıyor. Ürünün son fiyatı ilk fiyatına göre nasıl değişmiştir?", "options": {"A": "%1 artmıştır", "B": "%1 azalmıştır", "C": "Değişmemiştir", "D": "%10 azalmıştır", "E": "%20 artmıştır"}, "correct": "B", "tip": "1,10 x 0,90 = 0,99 katsayısı elde edilir; bu da ilk fiyata göre %1 azalış anlamına gelir."},
-    {"id": "mat_23", "question": "Bir öğrencinin 4 sınavdan aldığı notların ortalaması 70'tir. Beşinci sınavdan 90 alırsa yeni ortalaması kaç olur?", "options": {"A": "72", "B": "73", "C": "74", "D": "75", "E": "76"}, "correct": "C", "tip": "İlk 4 sınavın toplamı 280'dir. 90 eklenince toplam 370 olur. 370/5=74."},
-    {"id": "mat_24", "question": "6! / 4! işleminin sonucu kaçtır?", "options": {"A": "15", "B": "24", "C": "30", "D": "36", "E": "45"}, "correct": "C", "tip": "6!/4! = 6x5 = 30 (4! ler sadeleşir)."},
-    {"id": "mat_25", "question": "3/7, 5/9 ve 2/5 kesirlerinden en büyüğü hangisidir?", "options": {"A": "3/7", "B": "5/9", "C": "2/5", "D": "Hepsi eşit", "E": "Karşılaştırılamaz"}, "correct": "B", "tip": "Ondalık karşılıkları hesaplanırsa 3/7≈0,43, 5/9≈0,56, 2/5=0,40'tır. En büyüğü 5/9'dur."},
-    {"id": "mat_26", "question": "x + y = 20 ve x - y = 4 olduğuna göre x.y çarpımı kaçtır?", "options": {"A": "72", "B": "84", "C": "96", "D": "108", "E": "120"}, "correct": "C", "tip": "Denklemler taraf tarafa toplanırsa 2x=24 => x=12, buradan y=8 bulunur. x.y=12x8=96."},
-    {"id": "mat_27", "question": "Bir sayının %25 fazlası 100 olduğuna göre bu sayı kaçtır?", "options": {"A": "70", "B": "75", "C": "80", "D": "85", "E": "90"}, "correct": "C", "tip": "x x 1,25 = 100 => x = 80."},
-    {"id": "mat_28", "question": "Bir saat günde 3 dakika geri kalmaktadır. Saat başlangıçta doğru ayarlandığına göre 20 gün sonra kaç dakika geri kalmış olur?", "options": {"A": "40 dakika", "B": "50 dakika", "C": "60 dakika", "D": "70 dakika", "E": "80 dakika"}, "correct": "C", "tip": "Günlük 3 dakikalık gecikme 20 günde 3x20=60 dakikaya ulaşır."},
-    {"id": "mat_29", "question": "Bir dikdörtgenler prizmasının ayrıtları 4 cm, 5 cm ve 6 cm'dir. Bu prizmanın hacmi kaç cm³'tür?", "options": {"A": "100", "B": "110", "C": "120", "D": "130", "E": "140"}, "correct": "C", "tip": "Hacim = a x b x c = 4x5x6 = 120 cm³."},
-    {"id": "mat_30", "question": "İki basamaklı bir sayının rakamları toplamı 9'dur. Sayının rakamları yer değiştirdiğinde elde edilen sayı, ilk sayıdan 27 fazladır. Buna göre ilk sayı kaçtır?", "options": {"A": "27", "B": "36", "C": "45", "D": "54", "E": "63"}, "correct": "B", "tip": "Sayı 10a+b, a+b=9. Rakamları yer değiştirmiş sayı 10b+a=(10a+b)+27 => b-a=3. a+b=9 ile birlikte çözülürse a=3, b=6 bulunur; ilk sayı 36'dır."}
+    {
+      "id": "mat_1",
+      "question": "Üç basamaklı en büyük doğal sayı ile iki basamaklı en küçük doğal sayının farkı kaçtır?",
+      "options": {
+        "A": "995",
+        "B": "989",
+        "C": "991",
+        "D": "985",
+        "E": "979"
+      },
+      "correct": "B",
+      "tip": "En büyük üç basamaklı sayı 999, en küçük iki basamaklı sayı 10’dur. 999 − 10 = 989."
+    },
+    {
+      "id": "mat_2",
+      "question": "Aşağıdaki sayılardan hangisi hem 4’e hem de 6’ya tam bölünür?",
+      "options": {
+        "A": "54",
+        "B": "42",
+        "C": "72",
+        "D": "98",
+        "E": "28"
+      },
+      "correct": "C",
+      "tip": "Bir sayı hem 4’e hem 6’ya bölünüyorsa EKOK(4,6)=12’ye de bölünür. Seçeneklerden yalnızca 72, 12’nin katıdır."
+    },
+    {
+      "id": "mat_3",
+      "question": "Bir baba ile oğlunun bugünkü yaşları toplamı 50’dir. Beş yıl sonra babanın yaşı oğlunun yaşının üç katı olacağına göre oğul bugün kaç yaşındadır?",
+      "options": {
+        "A": "12",
+        "B": "10",
+        "C": "16",
+        "D": "14",
+        "E": "8"
+      },
+      "correct": "B",
+      "tip": "Oğul x yaşında olsun. Baba 50−x yaşındadır. 5 yıl sonra 55−x=3(x+5) olur; buradan x=10 bulunur."
+    },
+    {
+      "id": "mat_4",
+      "question": "Bir havuzu dolduran musluk havuzu 8 saatte, boşaltan musluk ise dolu havuzu 12 saatte boşaltıyor. İkisi aynı anda açılırsa boş havuz kaç saatte dolar?",
+      "options": {
+        "A": "20",
+        "B": "28",
+        "C": "18",
+        "D": "22",
+        "E": "24"
+      },
+      "correct": "E",
+      "tip": "Net dolum hızı 1/8−1/12=1/24 havuz/saattir; havuz 24 saatte dolar."
+    },
+    {
+      "id": "mat_5",
+      "question": "Bir ürün %25 zararla 900 TL’ye satılıyor. Buna göre ürünün alış fiyatı kaç TL’dir?",
+      "options": {
+        "A": "1.100",
+        "B": "1.000",
+        "C": "1.250",
+        "D": "1.350",
+        "E": "1.200"
+      },
+      "correct": "E",
+      "tip": "900 TL alış fiyatının %75’idir. Alış fiyatı 900/0,75=1.200 TL olur."
+    },
+    {
+      "id": "mat_6",
+      "question": "12.000 TL anapara, yıllık %10 basit faizle 3 yıl değerlendiriliyor. Dönem sonunda elde edilen faiz kaç TL’dir?",
+      "options": {
+        "A": "2.400",
+        "B": "1.200",
+        "C": "4.800",
+        "D": "3.000",
+        "E": "3.600"
+      },
+      "correct": "E",
+      "tip": "Basit faiz = anapara × oran × süre = 12.000 × 0,10 × 3 = 3.600 TL."
+    },
+    {
+      "id": "mat_7",
+      "question": "Aralarında 360 km bulunan iki araç aynı anda birbirine doğru hareket ediyor. Hızları saatte 70 km ve 110 km olduğuna göre kaç saat sonra karşılaşırlar?",
+      "options": {
+        "A": "2,5",
+        "B": "2",
+        "C": "1",
+        "D": "1,5",
+        "E": "3"
+      },
+      "correct": "B",
+      "tip": "Karşılıklı hareket ettikleri için hızları toplanır: 70+110=180 km/sa. 360/180=2 saattir."
+    },
+    {
+      "id": "mat_8",
+      "question": "32 öğrencinin bulunduğu bir sınıfta 19 öğrenci futbol, 14 öğrenci basketbol oynuyor. Her iki sporu oynayan 7 öğrenci varsa hiçbirini oynamayan kaç öğrenci vardır?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "8",
+        "D": "4",
+        "E": "5"
+      },
+      "correct": "B",
+      "tip": "En az bir spor yapan öğrenci sayısı 19+14−7=26’dır. 32−26=6 öğrenci hiçbirini oynamaz."
+    },
+    {
+      "id": "mat_9",
+      "question": "Bir kutuda 5 kırmızı, 4 mavi ve 3 beyaz bilye vardır. Rastgele seçilen bir bilyenin mavi olma olasılığı kaçtır?",
+      "options": {
+        "A": "1/2",
+        "B": "5/12",
+        "C": "2/3",
+        "D": "1/3",
+        "E": "1/4"
+      },
+      "correct": "D",
+      "tip": "Toplam bilye sayısı 12, mavi bilye sayısı 4’tür. Olasılık 4/12=1/3 olur."
+    },
+    {
+      "id": "mat_10",
+      "question": "Beş farklı kitabın tamamı bir rafa kaç farklı biçimde sıralanabilir?",
+      "options": {
+        "A": "25",
+        "B": "100",
+        "C": "60",
+        "D": "240",
+        "E": "120"
+      },
+      "correct": "E",
+      "tip": "Beş farklı nesnenin sıralanma sayısı 5!=5×4×3×2×1=120’dir."
+    },
+    {
+      "id": "mat_11",
+      "question": "Bir sayının dört katının 9 fazlası, aynı sayının altı katının 3 eksiğine eşittir. Bu sayı kaçtır?",
+      "options": {
+        "A": "7",
+        "B": "4",
+        "C": "8",
+        "D": "6",
+        "E": "5"
+      },
+      "correct": "D",
+      "tip": "4x+9=6x−3 denklemi çözülürse 12=2x ve x=6 bulunur."
+    },
+    {
+      "id": "mat_12",
+      "question": "Bir üçgenin tabanı 15 cm, bu tabana ait yüksekliği 8 cm’dir. Üçgenin alanı kaç cm²’dir?",
+      "options": {
+        "A": "72",
+        "B": "48",
+        "C": "64",
+        "D": "54",
+        "E": "60"
+      },
+      "correct": "E",
+      "tip": "Üçgenin alanı taban×yükseklik/2 = 15×8/2 = 60 cm²’dir."
+    },
+    {
+      "id": "mat_13",
+      "question": "Bir dikdörtgenin çevresi 54 cm, uzun kenarı kısa kenarının iki katıdır. Alanı kaç cm²’dir?",
+      "options": {
+        "A": "121",
+        "B": "144",
+        "C": "180",
+        "D": "162",
+        "E": "196"
+      },
+      "correct": "D",
+      "tip": "Kısa kenar x, uzun kenar 2x olsun. 2(3x)=54 olduğundan x=9; kenarlar 9 ve 18, alan 162 cm²’dir."
+    },
+    {
+      "id": "mat_14",
+      "question": "Yarıçapı 7 cm olan çemberin çevresi kaç cm’dir? (π=22/7 alınız.)",
+      "options": {
+        "A": "44",
+        "B": "66",
+        "C": "33",
+        "D": "49",
+        "E": "22"
+      },
+      "correct": "A",
+      "tip": "Çevre 2πr=2×22/7×7=44 cm’dir."
+    },
+    {
+      "id": "mat_15",
+      "question": "Bir haritada 3 cm, gerçekte 75 km’yi göstermektedir. Haritada 8 cm ile gösterilen uzaklık gerçekte kaç km’dir?",
+      "options": {
+        "A": "225",
+        "B": "180",
+        "C": "200",
+        "D": "175",
+        "E": "150"
+      },
+      "correct": "C",
+      "tip": "1 cm 25 km’dir. 8×25=200 km bulunur."
+    },
+    {
+      "id": "mat_16",
+      "question": "Bir işi 12 işçi 10 günde bitiriyor. Aynı verimle çalışan işçiler bu işi 6 günde bitirecekse kaç işçi gerekir?",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "22",
+        "D": "24",
+        "E": "16"
+      },
+      "correct": "A",
+      "tip": "İş miktarı sabittir: 12×10=120 işçi-gün. 120/6=20 işçi gerekir."
+    },
+    {
+      "id": "mat_17",
+      "question": "4, 9, 16, 25, 36, … sayı örüntüsünün bir sonraki terimi kaçtır?",
+      "options": {
+        "A": "49",
+        "B": "48",
+        "C": "42",
+        "D": "45",
+        "E": "64"
+      },
+      "correct": "A",
+      "tip": "Terimler sırasıyla 2², 3², 4², 5², 6²’dir. Sonraki terim 7²=49’dur."
+    },
+    {
+      "id": "mat_18",
+      "question": "252 sayısının asal çarpanlarına ayrılmış biçimi hangisidir?",
+      "options": {
+        "A": "2×3³×7",
+        "B": "2³×3²×5",
+        "C": "2²×3×7²",
+        "D": "2²×3²×7",
+        "E": "2×3²×7²"
+      },
+      "correct": "D",
+      "tip": "252=4×63=2²×3²×7 biçiminde asal çarpanlarına ayrılır."
+    },
+    {
+      "id": "mat_19",
+      "question": "20 ve 30 sayılarının en küçük ortak katı kaçtır?",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "90",
+        "D": "120",
+        "E": "40"
+      },
+      "correct": "B",
+      "tip": "20=2²×5 ve 30=2×3×5 olduğundan EKOK=2²×3×5=60’tır."
+    },
+    {
+      "id": "mat_20",
+      "question": "Kütlesi 400 gram olan %15’lik tuzlu su çözeltisine kaç gram saf su eklenirse çözeltinin tuz oranı %10 olur?",
+      "options": {
+        "A": "150",
+        "B": "300",
+        "C": "200",
+        "D": "250",
+        "E": "100"
+      },
+      "correct": "C",
+      "tip": "Tuz miktarı 400×0,15=60 g’dır. %10’luk çözeltinin toplamı 600 g olmalıdır; 600−400=200 g su eklenir."
+    },
+    {
+      "id": "mat_21",
+      "question": "Toplamları 145 olan ardışık beş tek sayının en büyüğü kaçtır?",
+      "options": {
+        "A": "31",
+        "B": "35",
+        "C": "37",
+        "D": "29",
+        "E": "33"
+      },
+      "correct": "E",
+      "tip": "Ortadaki sayı ortalamaya eşittir: 145/5=29. Sayılar 25, 27, 29, 31, 33 olduğundan en büyüğü 33’tür."
+    },
+    {
+      "id": "mat_22",
+      "question": "Bir ürünün fiyatı önce %20 artırılıyor, ardından yeni fiyat üzerinden %20 indirim yapılıyor. Son fiyat başlangıç fiyatına göre nasıl değişir?",
+      "options": {
+        "A": "Değişmez",
+        "B": "%4 artar",
+        "C": "%8 azalır",
+        "D": "%4 azalır",
+        "E": "%10 artar"
+      },
+      "correct": "D",
+      "tip": "Başlangıç fiyatını 100 alırsak 120×0,80=96 olur; fiyat başlangıca göre %4 azalmıştır."
+    },
+    {
+      "id": "mat_23",
+      "question": "Bir öğrencinin dört sınav notunun ortalaması 68’dir. Beşinci sınavdan 88 alırsa beş sınavın ortalaması kaç olur?",
+      "options": {
+        "A": "68",
+        "B": "76",
+        "C": "72",
+        "D": "70",
+        "E": "74"
+      },
+      "correct": "C",
+      "tip": "İlk dört notun toplamı 4×68=272’dir. Yeni toplam 360, ortalama 360/5=72’dir."
+    },
+    {
+      "id": "mat_24",
+      "question": "7!/5! işleminin sonucu kaçtır?",
+      "options": {
+        "A": "24",
+        "B": "12",
+        "C": "42",
+        "D": "49",
+        "E": "35"
+      },
+      "correct": "C",
+      "tip": "7!/5! = 7×6×5!/5! = 42 olur."
+    },
+    {
+      "id": "mat_25",
+      "question": "Aşağıdaki kesirlerden hangisi en büyüktür?",
+      "options": {
+        "A": "5/8",
+        "B": "7/12",
+        "C": "11/20",
+        "D": "3/5",
+        "E": "4/7"
+      },
+      "correct": "A",
+      "tip": "5/8=0,625; 3/5=0,6 ve diğer seçeneklerin ondalık değerleri daha küçüktür."
+    },
+    {
+      "id": "mat_26",
+      "question": "x+y=22 ve x−y=6 olduğuna göre x·y çarpımı kaçtır?",
+      "options": {
+        "A": "120",
+        "B": "104",
+        "C": "96",
+        "D": "112",
+        "E": "128"
+      },
+      "correct": "D",
+      "tip": "Denklemler toplanırsa 2x=28, x=14 olur. y=8 bulunduğundan x·y=112’dir."
+    },
+    {
+      "id": "mat_27",
+      "question": "Bir sayının %40 fazlası 140 olduğuna göre bu sayı kaçtır?",
+      "options": {
+        "A": "100",
+        "B": "80",
+        "C": "110",
+        "D": "120",
+        "E": "90"
+      },
+      "correct": "A",
+      "tip": "1,40x=140 olduğundan x=100 bulunur."
+    },
+    {
+      "id": "mat_28",
+      "question": "Bir saat her gün 4 dakika geri kalıyor. Saat doğru ayarlandıktan 15 gün sonra toplam kaç dakika geri kalır?",
+      "options": {
+        "A": "60",
+        "B": "55",
+        "C": "50",
+        "D": "45",
+        "E": "65"
+      },
+      "correct": "A",
+      "tip": "Günlük 4 dakikalık gecikme 15 günde 4×15=60 dakika olur."
+    },
+    {
+      "id": "mat_29",
+      "question": "Ayrıt uzunlukları 3 cm, 4 cm ve 8 cm olan dikdörtgenler prizmasının hacmi kaç cm³’tür?",
+      "options": {
+        "A": "108",
+        "B": "120",
+        "C": "96",
+        "D": "72",
+        "E": "84"
+      },
+      "correct": "C",
+      "tip": "Dikdörtgenler prizmasının hacmi üç ayrıtın çarpımıdır: 3×4×8=96 cm³."
+    },
+    {
+      "id": "mat_30",
+      "question": "İki basamaklı bir sayının rakamları toplamı 11’dir. Rakamları yer değiştirildiğinde oluşan sayı ilk sayıdan 27 fazladır. İlk sayı kaçtır?",
+      "options": {
+        "A": "29",
+        "B": "47",
+        "C": "65",
+        "D": "38",
+        "E": "56"
+      },
+      "correct": "B",
+      "tip": "Onlar basamağı a, birler basamağı b olsun. a+b=11 ve b−a=3’tür. Buradan a=4, b=7; sayı 47 olur."
+    }
   ],
   "Tarih": [
-    {"id": "tar_1", "question": "Orhun Abideleri hangi Türk hükümdarları adına dikilmiştir?", "options": {"A": "Bilge Kağan ve Kül Tigin", "B": "Mete Han ve Bilge Kağan", "C": "İstemi Yabgu ve Bumin Kağan", "D": "Kutluk Kağan ve Bilge Kağan", "E": "Tonyukuk ve Mete Han"}, "correct": "A", "tip": "II. Göktürk Devleti hükümdarı Bilge Kağan ile kardeşi Kül Tigin adına dikilen Orhun Abideleri, Türk adına yazılmış ilk yazılı belgelerdendir."},
-    {"id": "tar_2", "question": "Malazgirt Savaşı'nın sonuçları arasında aşağıdakilerden hangisi yer almaz?", "options": {"A": "Anadolu'nun kapıları Türklere açılmıştır.", "B": "Anadolu'da ilk Türk beylikleri kurulmuştur.", "C": "Bizans'ın Anadolu'daki gücü büyük ölçüde kırılmıştır.", "D": "İstanbul fethedilerek Bizans yıkılmıştır.", "E": "Haçlı Seferleri'nin başlamasında etkili olmuştur."}, "correct": "D", "tip": "İstanbul'un fethi 1453'te Fatih Sultan Mehmet tarafından gerçekleştirilmiştir; bu, 1071 Malazgirt Savaşı'nın doğrudan bir sonucu değildir."},
-    {"id": "tar_3", "question": "Osmanlı Devleti'nde Divan-ı Hümayun'a hangi padişah döneminden itibaren padişahlar katılmayı bırakmış, divana sadrazamlar başkanlık etmeye başlamıştır?", "options": {"A": "Orhan Bey", "B": "I. Murad", "C": "Fatih Sultan Mehmet", "D": "Yavuz Sultan Selim", "E": "Kanuni Sultan Süleyman"}, "correct": "C", "tip": "Fatih Sultan Mehmet döneminden itibaren padişahlar divana katılmayı bırakmış, otoritelerini artırmak amacıyla divana perde arkasından (kafes) nezaret etmişlerdir."},
-    {"id": "tar_4", "question": "Osmanlı Devleti'nde toprak düzeninin bozulmaya başlaması aşağıdaki gelişmelerden hangisiyle doğrudan ilişkilidir?", "options": {"A": "Tımar sisteminin iltizam sistemine dönüşmesi", "B": "Divan-ı Hümayun'un kaldırılması", "C": "Yeniçeri Ocağı'nın kurulması", "D": "Kanunname-i Ali Osman'ın hazırlanması", "E": "Enderun Mektebi'nin açılması"}, "correct": "A", "tip": "XVI. yüzyıl sonlarından itibaren tımar sisteminin bozularak yerini iltizama bırakması, Osmanlı ekonomisinde ve toprak düzeninde çözülmeye yol açmıştır."},
-    {"id": "tar_5", "question": "Osmanlı Devleti'nin ilk kez toprak kaybettiği ve Gerileme Dönemi'nin başlangıcı sayılan antlaşma aşağıdakilerden hangisidir?", "options": {"A": "Zsitvatorok Antlaşması", "B": "Karlofça Antlaşması", "C": "Pasarofça Antlaşması", "D": "Küçük Kaynarca Antlaşması", "E": "Bükreş Antlaşması"}, "correct": "B", "tip": "1699 Karlofça Antlaşması, Osmanlı Devleti'nin toprak kaybettiği ilk antlaşmadır ve Gerileme Dönemi'nin başlangıcı kabul edilir."},
-    {"id": "tar_6", "question": "Kırım'ın Osmanlı Devleti'nden koparılarak bağımsız hâle getirilmesi hangi antlaşma ile gerçekleşmiştir?", "options": {"A": "Karlofça", "B": "Pasarofça", "C": "Küçük Kaynarca", "D": "Yaş", "E": "Edirne"}, "correct": "C", "tip": "1774 Küçük Kaynarca Antlaşması ile Kırım bağımsız hâle getirilmiş, daha sonra Rusya tarafından ilhak edilmiştir."},
-    {"id": "tar_7", "question": "Yeniçeri Ocağını kaldırıp yerine düzenli bir ordu kurmak isteyen, ancak bu girişimi tahttan indirilmesine yol açan ilk padişah kimdir?", "options": {"A": "III. Selim", "B": "II. Osman", "C": "I. Mahmud", "D": "III. Mustafa", "E": "II. Mahmud"}, "correct": "B", "tip": "II. Osman (Genç Osman), Yeniçeri Ocağını kaldırma girişiminde bulunan ilk padişah olarak bilinir; bu girişim onun tahttan indirilmesiyle sonuçlanmıştır."},
-    {"id": "tar_8", "question": "Tanzimat Fermanı'nın en önemli özelliği aşağıdakilerden hangisidir?", "options": {"A": "Meşrutiyeti ilan etmesi", "B": "Kanun üstünlüğünün, padişah da dahil olmak üzere herkes için kabul edilmesi", "C": "Osmanlıcılık fikrinin resmi politika olması", "D": "İlk anayasanın hazırlanması", "E": "Azınlıklara ayrıcalık tanınması"}, "correct": "B", "tip": "Tanzimat Fermanı ile ilk kez padişahın yetkileri hukuk kurallarıyla sınırlandırılmış, kanun gücü padişahın üstünde kabul edilmiştir."},
-    {"id": "tar_9", "question": "I. Meşrutiyet hangi padişah döneminde, hangi gelişmenin bir sonucu olarak ilan edilmiştir?", "options": {"A": "II. Abdülhamid - Kanun-i Esasi'nin hazırlanması", "B": "V. Murad - Rus baskısı", "C": "Abdülaziz - mali kriz", "D": "II. Mahmud - Yeniçeri isyanı", "E": "III. Selim - Nizam-ı Cedid"}, "correct": "A", "tip": "II. Abdülhamid, tahta çıkarken verdiği söz üzerine 1876'da Kanun-i Esasi'yi kabul ederek I. Meşrutiyeti ilan etmiştir."},
-    {"id": "tar_10", "question": "Mondros Ateşkes Antlaşması'nın maddeleri arasında Kurtuluş Savaşı'nın başlamasında en etkili olan madde aşağıdakilerden hangisidir?", "options": {"A": "Boğazların açılması", "B": "Ordunun terhis edilmesi", "C": "İtilaf Devletlerinin güvenliklerini tehdit eden bir durumda herhangi bir stratejik noktayı işgal edebilmesi", "D": "Haberleşme ve ulaşım araçlarının denetime alınması", "E": "Sınır muhafızları dışındaki askerlerin terhisi"}, "correct": "C", "tip": "7. madde olarak bilinen bu hüküm, İtilaf Devletlerine dilediği yeri işgal etme hakkı tanıdığından işgallerin hukuki dayanağı olmuş ve Kurtuluş Savaşı'nın başlamasına zemin hazırlamıştır."},
-    {"id": "tar_11", "question": "Kuva-yı Milliye birliklerinin kurulmasında öncü rol oynayan işgal aşağıdakilerden hangisidir?", "options": {"A": "İstanbul'un işgali", "B": "İzmir'in işgali", "C": "Antep'in işgali", "D": "Maraş'ın işgali", "E": "Musul'un işgali"}, "correct": "B", "tip": "15 Mayıs 1919'da Yunanistan'ın İzmir'i işgal etmesi, halkın kendiliğinden silahlanarak Kuva-yı Milliye birliklerini oluşturmasına yol açan en önemli gelişmedir."},
-    {"id": "tar_12", "question": "Amasya Genelgesi'nde yer alan 'Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.' ifadesi neyi vurgular?", "options": {"A": "Manda ve himayenin kabul edildiğini", "B": "Milli egemenlik ve milli iradenin esas alınacağını", "C": "Padişahın otoritesinin devam edeceğini", "D": "İtilaf devletleriyle iş birliği yapılacağını", "E": "Saltanatın korunacağını"}, "correct": "B", "tip": "Bu ifade, Kurtuluş Savaşı'nın millet egemenliğine dayalı bağımsızlıkçı bir çizgide yürütüleceğinin ilk kez açıkça belirtildiği ibaredir."},
-    {"id": "tar_13", "question": "Misak-ı Millî kararları son şeklini hangi mecliste almıştır?", "options": {"A": "Erzurum Kongresi", "B": "Sivas Kongresi", "C": "Amasya Görüşmeleri", "D": "Son Osmanlı Mebusan Meclisi", "E": "TBMM"}, "correct": "D", "tip": "Sivas Kongresi'nde alınan kararlar esas alınarak hazırlanan Misak-ı Millî, 28 Ocak 1920'de toplanan Son Osmanlı Mebusan Meclisi'nde kabul edilip ilan edilmiştir."},
-    {"id": "tar_14", "question": "TBMM'ye ve Kurtuluş Savaşı'na karşı çıkan iç isyanları bastırmak amacıyla 29 Nisan 1920'de çıkarılan kanun aşağıdakilerden hangisidir?", "options": {"A": "Tekalif-i Milliye Emirleri", "B": "Hıyanet-i Vataniye Kanunu", "C": "Men-i İsrafat Kanunu", "D": "İstiklal Mahkemeleri Kanunu", "E": "Teşkilat-ı Esasiye Kanunu"}, "correct": "B", "tip": "29 Nisan 1920'de çıkarılan Hıyanet-i Vataniye Kanunu, TBMM'ye karşı çıkan iç isyanları bastırmak ve cezalandırmak amacıyla hazırlanmıştır."},
-    {"id": "tar_15", "question": "Sakarya Meydan Muharebesi'nin sonuçlarından biri aşağıdakilerden hangisidir?", "options": {"A": "Kars Antlaşması imzalanmıştır.", "B": "TBMM ile Fransa arasında Ankara Antlaşması imzalanmıştır.", "C": "Saltanat kaldırılmıştır.", "D": "Lozan görüşmeleri başlamıştır.", "E": "Musul sorunu çözülmüştür."}, "correct": "B", "tip": "Sakarya zaferinin ardından Fransa, TBMM'nin gücünü kabul ederek 20 Ekim 1921'de Ankara Antlaşması'nı imzalamış ve Güney Cephesi kapanmıştır."},
-    {"id": "tar_16", "question": "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi hangi tarihler arasında gerçekleşmiştir?", "options": {"A": "26 Ağustos - 30 Ağustos 1922", "B": "23 Ağustos - 13 Eylül 1921", "C": "6-10 Ocak 1921", "D": "10 Temmuz 1921", "E": "11 Ekim 1922"}, "correct": "A", "tip": "26 Ağustos 1922'de başlayan Büyük Taarruz, 30 Ağustos 1922'de kazanılan Başkomutanlık Meydan Muharebesi ile taçlanmıştır."},
-    {"id": "tar_17", "question": "Mudanya Ateşkes Antlaşması görüşmelerine hangi devlet temsilci göndermemiş, alınan kararları ise sonradan kabul etmiştir?", "options": {"A": "İngiltere", "B": "Fransa", "C": "İtalya", "D": "Yunanistan", "E": "TBMM"}, "correct": "D", "tip": "Yunanistan, Mudanya görüşmelerine temsilci göndermemiş, alınan kararları ise sonradan kabul etmiştir."},
-    {"id": "tar_18", "question": "Lozan Barış Antlaşması'nda kesin bir sonuca bağlanamayan ve ileriki yıllara bırakılan iki önemli sorun aşağıdakilerin hangisinde birlikte verilmiştir?", "options": {"A": "Kapitülasyonlar - Nüfus mübadelesi", "B": "Musul - Boğazlar", "C": "Doğu sınırı - Batı Trakya", "D": "Dış borçlar - Adalar", "E": "Hatay - Kıbrıs"}, "correct": "B", "tip": "Musul sorunu Türkiye ile İngiltere arasındaki ikili görüşmelere; Boğazlar sorunu ise oluşturulan bir komisyona bırakılmış, her ikisi de daha sonra ayrı antlaşmalarla çözülmüştür."},
-    {"id": "tar_19", "question": "Halifeliğin kaldırılmasıyla aynı gün gerçekleşen gelişme aşağıdakilerden hangisidir?", "options": {"A": "Tevhid-i Tedrisat Kanunu'nun kabul edilmesi", "B": "Kabotaj Kanunu'nun çıkarılması", "C": "Medeni Kanun'un kabulü", "D": "Soyadı Kanunu'nun çıkarılması", "E": "Harf İnkılabı"}, "correct": "A", "tip": "3 Mart 1924'te Halifelik kaldırılmasıyla aynı gün Tevhid-i Tedrisat Kanunu kabul edilerek eğitim tek çatı altında toplanmıştır."},
-    {"id": "tar_20", "question": "Aşağıdaki inkılaplardan hangisi diğerlerinden önce gerçekleşmiştir?", "options": {"A": "Medeni Kanun'un kabulü (1926)", "B": "Soyadı Kanunu (1934)", "C": "Harf İnkılabı (1928)", "D": "Saltanatın kaldırılması (1922)", "E": "Kadınlara milletvekili seçme hakkı (1934)"}, "correct": "D", "tip": "Saltanat 1 Kasım 1922'de kaldırılmıştır ve verilen tarihler arasında en erken gerçekleşen inkılaptır."},
-    {"id": "tar_21", "question": "Türk Medeni Kanunu hangi ülkenin kanunundan yararlanılarak hazırlanmıştır?", "options": {"A": "Fransa", "B": "İsviçre", "C": "İtalya", "D": "Almanya", "E": "İngiltere"}, "correct": "B", "tip": "1926'da kabul edilen Türk Medeni Kanunu, İsviçre Medeni Kanunu esas alınarak hazırlanmıştır."},
-    {"id": "tar_22", "question": "Kılık kıyafette çağdaşlaşmayı amaçlayan Şapka İktisası Kanunu hangi yılda kabul edilmiştir?", "options": {"A": "1923", "B": "1924", "C": "1925", "D": "1926", "E": "1928"}, "correct": "C", "tip": "Şapka İktisası Kanunu 25 Kasım 1925'te kabul edilmiştir."},
-    {"id": "tar_23", "question": "1929 Dünya Ekonomik Buhranı sonrası Türkiye'nin izlediği kalkınma modeliyle ilgili aşağıdaki ifadelerden hangisi doğrudur?", "options": {"A": "Liberal ekonomi tamamen benimsenmiştir.", "B": "1930'lardan itibaren devletçilik ilkesiyle sanayileşmeye ağırlık verilmiştir.", "C": "Tarım tamamen ihmal edilmiştir.", "D": "Yabancı sermayeye tam bağımlılık sürdürülmüştür.", "E": "Sanayileşme çabalarından vazgeçilmiştir."}, "correct": "B", "tip": "1929 Dünya Ekonomik Buhranı sonrası benimsenen devletçilik ilkesiyle I. ve II. Beş Yıllık Sanayi Planları uygulanarak devlet eliyle sanayileşme hedeflenmiştir."},
-    {"id": "tar_24", "question": "Türkiye'nin 1936'da Montrö Boğazlar Sözleşmesi'ni imzalayabilmesinde zemin hazırlayan üyelik gelişmesi aşağıdakilerden hangisidir?", "options": {"A": "Musul sorununun çözülmesi", "B": "Milletler Cemiyeti'ne üye olunması", "C": "Nüfus mübadelesinin tamamlanması", "D": "Lozan'ın imzalanması", "E": "Sadabat Paktı'nın imzalanması"}, "correct": "B", "tip": "1932'de Milletler Cemiyeti'ne üye olan Türkiye, bu üyeliğin sağladığı güven ortamıyla 1936'da Montrö Boğazlar Sözleşmesi'ni imzalayarak boğazlar üzerindeki tam egemenliğini kazanmıştır."},
-    {"id": "tar_25", "question": "Hatay'ın Türkiye'ye bağlanma süreciyle ilgili olarak aşağıdakilerden hangisi yanlıştır?", "options": {"A": "Hatay, Lozan'da Fransız mandasındaki Suriye sınırları içinde bırakılmıştır.", "B": "1938'de bağımsız Hatay Devleti kurulmuştur.", "C": "Hatay 1939'da TBMM kararıyla Türkiye'ye katılmıştır.", "D": "Atatürk, Hatay'ın anavatana katılmasını görememiştir.", "E": "Hatay sorunu Sadabat Paktı ile çözülmüştür."}, "correct": "E", "tip": "Hatay sorunu Sadabat Paktı ile değil; Fransa ile yapılan görüşmeler, bağımsız Hatay Devleti'nin kurulması ve ardından TBMM kararıyla 1939'da çözüme kavuşmuştur."},
-    {"id": "tar_26", "question": "II. Dünya Savaşı sürecinde Türkiye'nin izlediği dış politikanın temel özelliği aşağıdakilerden hangisidir?", "options": {"A": "Aktif olarak savaşa katılmak", "B": "Denge politikası gözeterek tarafsızlığını korumak", "C": "Mihver Devletleri ile ittifak kurmak", "D": "Yalnızca Sovyetler Birliği ile iş birliği yapmak", "E": "Birleşmiş Milletler'i kurmak"}, "correct": "B", "tip": "Türkiye, II. Dünya Savaşı boyunca büyük ölçüde tarafsız kalarak denge politikası izlemiş, savaşın sonlarına doğru Şubat 1945'te sembolik olarak Almanya ve Japonya'ya savaş ilan etmiştir."},
-    {"id": "tar_27", "question": "Cumhuriyet döneminde kurulan ilk muhalefet partisi aşağıdakilerden hangisidir?", "options": {"A": "Demokrat Parti", "B": "Serbest Cumhuriyet Fırkası", "C": "Terakkiperver Cumhuriyet Fırkası", "D": "Millet Partisi", "E": "Cumhuriyet Halk Partisi"}, "correct": "C", "tip": "Cumhuriyet döneminde kurulan ilk muhalefet partisi, 1924'te Kazım Karabekir önderliğinde kurulan Terakkiperver Cumhuriyet Fırkası'dır."}
+    {
+      "id": "tar_1",
+      "question": "Orhun Yazıtları’yla ilgili aşağıdaki bilgilerden hangisi doğrudur?",
+      "options": {
+        "A": "Kül Tigin, Bilge Kağan ve Tonyukuk adına dikilen yazıtları içerir.",
+        "B": "Osmanlı Türkçesiyle yazılmış ilk eserlerdir.",
+        "C": "Anadolu’da kurulan ilk Türk beyliğinin kitabesidir.",
+        "D": "Uygur alfabesiyle 15. yüzyılda yazılmıştır.",
+        "E": "Yalnızca dinî törenleri anlatan metinlerden oluşur."
+      },
+      "correct": "A",
+      "tip": "Orhun Yazıtları II. Göktürk dönemine aittir ve Kül Tigin, Bilge Kağan ile Tonyukuk’u konu alan üç önemli metni kapsar."
+    },
+    {
+      "id": "tar_2",
+      "question": "1071 Malazgirt Savaşı’nın doğrudan sonuçları arasında aşağıdakilerden hangisi gösterilemez?",
+      "options": {
+        "A": "Bizans’ın Anadolu’daki otoritesinin zayıflaması",
+        "B": "Anadolu’nun Türk yurdu olma sürecinin hızlanması",
+        "C": "İstanbul’un fethedilmesi ve Bizans’ın sona ermesi",
+        "D": "Türk beyliklerinin Anadolu’da kurulmaya başlaması",
+        "E": "Anadolu’ya yönelik Türk yerleşiminin hızlanması"
+      },
+      "correct": "C",
+      "tip": "İstanbul’un fethi 1453’te gerçekleşmiştir; Malazgirt Savaşı’nın doğrudan sonucu değildir."
+    },
+    {
+      "id": "tar_3",
+      "question": "Osmanlı Devleti’nde Divan-ı Hümayun toplantılarına padişahın bizzat katılmayı bırakıp divanı sadrazamın yönetmesi hangi padişah döneminde başlamıştır?",
+      "options": {
+        "A": "Yavuz Sultan Selim",
+        "B": "I. Murad",
+        "C": "Orhan Bey",
+        "D": "Fatih Sultan Mehmet",
+        "E": "Kanuni Sultan Süleyman"
+      },
+      "correct": "D",
+      "tip": "Fatih Sultan Mehmet döneminde padişahın divana doğrudan katılma geleneği sona ermiş, toplantıları sadrazam yönetmeye başlamıştır."
+    },
+    {
+      "id": "tar_4",
+      "question": "Osmanlı toprak yönetiminde tımar sisteminin işlevini yitirmesiyle birlikte yaygınlaşan vergi toplama yöntemi hangisidir?",
+      "options": {
+        "A": "İltizam",
+        "B": "İskân",
+        "C": "Müsadere",
+        "D": "Devşirme",
+        "E": "Dirlik"
+      },
+      "correct": "A",
+      "tip": "İltizam yönteminde belirli vergi gelirleri açık artırma yoluyla mültezimlere bırakılır; sistemin yaygınlaşması tımar düzeninin bozulmasıyla ilişkilidir."
+    },
+    {
+      "id": "tar_5",
+      "question": "Osmanlı Devleti’nin batıda büyük ölçekte toprak kaybettiği ve Gerileme Dönemi’nin başlangıcı kabul edilen antlaşma hangisidir?",
+      "options": {
+        "A": "Pasarofça",
+        "B": "Yaş",
+        "C": "Zsitvatorok",
+        "D": "Karlofça",
+        "E": "Küçük Kaynarca"
+      },
+      "correct": "D",
+      "tip": "1699 Karlofça Antlaşması, Osmanlı’nın Avrupa’daki geniş toprak kayıplarının dönüm noktalarındandır."
+    },
+    {
+      "id": "tar_6",
+      "question": "Kırım’ın Osmanlı Devleti’nden ayrılarak bağımsız kabul edilmesi hangi antlaşmayla karara bağlanmıştır?",
+      "options": {
+        "A": "Yaş",
+        "B": "Pasarofça",
+        "C": "Küçük Kaynarca",
+        "D": "Karlofça",
+        "E": "Edirne"
+      },
+      "correct": "C",
+      "tip": "1774 Küçük Kaynarca Antlaşması’yla Kırım bağımsız hâle gelmiş; Rusya 1783’te Kırım’ı ilhak etmiştir."
+    },
+    {
+      "id": "tar_7",
+      "question": "Yeniçeri Ocağı’nı kaldırmaya yönelik girişimi nedeniyle tahttan indirilen Osmanlı padişahı kimdir?",
+      "options": {
+        "A": "III. Selim",
+        "B": "II. Osman",
+        "C": "I. Mahmud",
+        "D": "II. Mahmud",
+        "E": "III. Mustafa"
+      },
+      "correct": "B",
+      "tip": "Genç Osman olarak da bilinen II. Osman, yeniçeri düzenini değiştirmek istemiş; 1622’de tahttan indirilmiştir."
+    },
+    {
+      "id": "tar_8",
+      "question": "1839 Tanzimat Fermanı’nın Osmanlı yönetimi açısından temel önemi hangisidir?",
+      "options": {
+        "A": "Saltanatın kaldırılması",
+        "B": "Padişah dâhil yönetimin hukuk kurallarıyla sınırlandırılmasının gündeme gelmesi",
+        "C": "Cumhuriyet yönetiminin ilan edilmesi",
+        "D": "Meclis hükûmetine geçilmesi",
+        "E": "İlk anayasanın kabul edilmesi"
+      },
+      "correct": "B",
+      "tip": "Tanzimat Fermanı can, mal ve namus güvenliği ile vergi ve askerlikte düzenlemeleri ilan ederek hukuk devleti yönünde önemli bir adım oluşturmuştur."
+    },
+    {
+      "id": "tar_9",
+      "question": "I. Meşrutiyet’in ilan edilmesiyle birlikte yürürlüğe giren Osmanlı anayasası hangisidir?",
+      "options": {
+        "A": "Sened-i İttifak",
+        "B": "Tanzimat Fermanı",
+        "C": "Kanun-ı Esasi",
+        "D": "Islahat Fermanı",
+        "E": "Teşkilat-ı Esasiye"
+      },
+      "correct": "C",
+      "tip": "Kanun-ı Esasi 1876’da ilan edilmiş ve I. Meşrutiyet döneminin anayasal temelini oluşturmuştur."
+    },
+    {
+      "id": "tar_10",
+      "question": "Mondros Ateşkes Antlaşması’nın İtilaf Devletlerine güvenliklerini tehdit eden bir durumda stratejik bölgeleri işgal etme olanağı veren maddesi hangisidir?",
+      "options": {
+        "A": "Haberleşme araçlarının denetlenmesi maddesi",
+        "B": "Boğazlarla ilgili madde",
+        "C": "7. madde",
+        "D": "Sınır güvenliğine ilişkin madde",
+        "E": "Ordunun terhisine ilişkin madde"
+      },
+      "correct": "C",
+      "tip": "Mondros’un 7. maddesi, işgallere geniş bir gerekçe sağladığı için Millî Mücadele’nin başlamasında etkili olmuştur."
+    },
+    {
+      "id": "tar_11",
+      "question": "Kuva-yı Milliye birliklerinin Batı Anadolu’da yaygınlaşmasını hızlandıran işgal hangisidir?",
+      "options": {
+        "A": "Musul’un işgali",
+        "B": "İstanbul’un işgali",
+        "C": "Boğazların işgali",
+        "D": "İzmir’in Yunan ordusu tarafından işgali",
+        "E": "Hatay’ın Fransız yönetimine bırakılması"
+      },
+      "correct": "D",
+      "tip": "15 Mayıs 1919’da İzmir’in işgali, bölgede silahlı direniş birliklerinin kurulmasını hızlandırmıştır."
+    },
+    {
+      "id": "tar_12",
+      "question": "Amasya Genelgesi’nde yer alan “Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.” kararı öncelikle hangi ilkeyi vurgular?",
+      "options": {
+        "A": "Saltanatın güçlendirilmesini",
+        "B": "Halifeliğin siyasi gücünü",
+        "C": "İtilaf Devletleriyle ortak yönetimi",
+        "D": "Manda yönetimini",
+        "E": "Millî egemenlik ve millî iradeyi"
+      },
+      "correct": "E",
+      "tip": "Bağımsızlığın milletin kendi iradesiyle sağlanacağını belirten ifade millî egemenlik anlayışını öne çıkarır."
+    },
+    {
+      "id": "tar_13",
+      "question": "Misak-ı Millî kararları 1920’de hangi kurumda kabul edilip ilan edilmiştir?",
+      "options": {
+        "A": "Amasya Görüşmeleri",
+        "B": "Türkiye Büyük Millet Meclisi",
+        "C": "Sivas Kongresi",
+        "D": "Erzurum Kongresi",
+        "E": "Son Osmanlı Mebusan Meclisi"
+      },
+      "correct": "E",
+      "tip": "Misak-ı Millî, Son Osmanlı Mebusan Meclisinde 28 Ocak 1920’de kabul edilmiştir."
+    },
+    {
+      "id": "tar_14",
+      "question": "TBMM’ye karşı çıkan iç isyanları hukuki yollardan cezalandırmak amacıyla 29 Nisan 1920’de çıkarılan kanun hangisidir?",
+      "options": {
+        "A": "Hıyanet-i Vataniye Kanunu",
+        "B": "Takrir-i Sükûn Kanunu",
+        "C": "Teşkilat-ı Esasiye Kanunu",
+        "D": "Tekâlif-i Milliye Emirleri",
+        "E": "Kabotaj Kanunu"
+      },
+      "correct": "A",
+      "tip": "Hıyanet-i Vataniye Kanunu, TBMM’nin otoritesine karşı çıkan faaliyetleri suç kapsamına almıştır."
+    },
+    {
+      "id": "tar_15",
+      "question": "Sakarya Meydan Muharebesi sonrasında TBMM ile Fransa arasında imzalanan ve Güney Cephesi’ni büyük ölçüde kapatan antlaşma hangisidir?",
+      "options": {
+        "A": "Moskova Antlaşması",
+        "B": "Kars Antlaşması",
+        "C": "Gümrü Antlaşması",
+        "D": "Lozan Antlaşması",
+        "E": "Ankara Antlaşması"
+      },
+      "correct": "E",
+      "tip": "20 Ekim 1921 Ankara Antlaşması’yla Fransa ile anlaşmaya varılmış ve Güney Cephesi kapanmıştır."
+    },
+    {
+      "id": "tar_16",
+      "question": "Başkomutanlık Meydan Muharebesi hangi tarihte kazanılmıştır?",
+      "options": {
+        "A": "30 Ağustos 1922",
+        "B": "23 Nisan 1920",
+        "C": "19 Mayıs 1919",
+        "D": "11 Ekim 1922",
+        "E": "23 Ağustos 1921"
+      },
+      "correct": "A",
+      "tip": "Başkomutanlık Meydan Muharebesi 30 Ağustos 1922’de kazanılmıştır; bu tarih Zafer Bayramı olarak kutlanır."
+    },
+    {
+      "id": "tar_17",
+      "question": "Mudanya Ateşkes görüşmelerine temsilci göndermeyen, ancak anlaşma hükümlerini sonradan kabul eden devlet hangisidir?",
+      "options": {
+        "A": "Yunanistan",
+        "B": "İtalya",
+        "C": "Sovyetler Birliği",
+        "D": "Fransa",
+        "E": "İngiltere"
+      },
+      "correct": "A",
+      "tip": "Yunanistan Mudanya görüşmelerine doğrudan katılmamış, ateşkes hükümlerini sonradan kabul etmiştir."
+    },
+    {
+      "id": "tar_18",
+      "question": "Lozan Barış Antlaşması’nda kesin çözüme bağlanamayıp daha sonraki görüşmelere bırakılan iki sorun hangi seçenekte birlikte verilmiştir?",
+      "options": {
+        "A": "Dış borçlar ve adalar",
+        "B": "Kapitülasyonlar ve nüfus mübadelesi",
+        "C": "Musul ve Boğazlar",
+        "D": "Doğu sınırı ve Batı Trakya",
+        "E": "Hatay ve Kıbrıs"
+      },
+      "correct": "C",
+      "tip": "Musul sorunu Türkiye ile İngiltere arasındaki görüşmelere, Boğazlar sorunu ise uluslararası düzenlemeye bırakılmıştır."
+    },
+    {
+      "id": "tar_19",
+      "question": "3 Mart 1924’te halifeliğin kaldırılmasıyla aynı gün kabul edilen düzenleme hangisidir?",
+      "options": {
+        "A": "Kabotaj Kanunu",
+        "B": "Tevhid-i Tedrisat Kanunu",
+        "C": "Soyadı Kanunu",
+        "D": "Türk Medeni Kanunu",
+        "E": "Harf İnkılabı"
+      },
+      "correct": "B",
+      "tip": "Tevhid-i Tedrisat Kanunu’yla eğitim kurumları Maarif Vekâletine bağlanarak eğitimde birlik amaçlanmıştır."
+    },
+    {
+      "id": "tar_20",
+      "question": "Aşağıdaki inkılaplardan hangisi diğerlerinden önce gerçekleşmiştir?",
+      "options": {
+        "A": "Harf İnkılabı",
+        "B": "Saltanatın kaldırılması",
+        "C": "Soyadı Kanunu’nun kabulü",
+        "D": "Kadınlara milletvekili seçme hakkı verilmesi",
+        "E": "Türk Medeni Kanunu’nun kabulü"
+      },
+      "correct": "B",
+      "tip": "Saltanat 1 Kasım 1922’de kaldırılmıştır; diğer gelişmeler 1926, 1928 ve 1934 yıllarında gerçekleşmiştir."
+    },
+    {
+      "id": "tar_21",
+      "question": "1926’da kabul edilen Türk Medeni Kanunu hazırlanırken hangi ülkenin medeni kanunundan yararlanılmıştır?",
+      "options": {
+        "A": "İsviçre",
+        "B": "Fransa",
+        "C": "İngiltere",
+        "D": "Almanya",
+        "E": "İtalya"
+      },
+      "correct": "A",
+      "tip": "Türk Medeni Kanunu, İsviçre Medeni Kanunu örnek alınarak hazırlanmıştır."
+    },
+    {
+      "id": "tar_22",
+      "question": "Şapka İktisası Hakkında Kanun hangi yıl kabul edilmiştir?",
+      "options": {
+        "A": "1924",
+        "B": "1928",
+        "C": "1923",
+        "D": "1925",
+        "E": "1926"
+      },
+      "correct": "D",
+      "tip": "Şapka İktisası Hakkında Kanun 25 Kasım 1925’te kabul edilmiştir."
+    },
+    {
+      "id": "tar_23",
+      "question": "1929 Dünya Ekonomik Bunalımı sonrasında Türkiye’nin sanayileşme politikasında hangi yaklaşım belirginleşmiştir?",
+      "options": {
+        "A": "Ekonominin tümüyle serbest piyasaya bırakılması",
+        "B": "Tarım faaliyetlerinin tamamen sonlandırılması",
+        "C": "Dış ticaretin tümüyle yasaklanması",
+        "D": "Devletçilik ilkesiyle devlet öncülüğünde sanayileşme",
+        "E": "Sanayi yatırımlarının durdurulması"
+      },
+      "correct": "D",
+      "tip": "1930’larda devletçilik doğrultusunda sanayi planları uygulanmış ve devlet yatırımları artırılmıştır."
+    },
+    {
+      "id": "tar_24",
+      "question": "Türkiye’nin 1936 Montrö Boğazlar Sözleşmesi’ne giden diplomatik sürecini destekleyen gelişmelerden biri hangisidir?",
+      "options": {
+        "A": "NATO’ya katılması",
+        "B": "Balkan Savaşları’nın başlaması",
+        "C": "Avrupa Birliği’ne üye olması",
+        "D": "Kıbrıs Barış Harekâtı’nın gerçekleşmesi",
+        "E": "Milletler Cemiyeti’ne üye olması"
+      },
+      "correct": "E",
+      "tip": "Türkiye 1932’de Milletler Cemiyeti’ne katılmış, uluslararası konumunu güçlendirerek Boğazlar rejiminin değiştirilmesini istemiştir."
+    },
+    {
+      "id": "tar_25",
+      "question": "Hatay’ın Türkiye’ye katılma süreciyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": {
+        "A": "Atatürk, Hatay’ın Türkiye’ye katıldığı 1939 yılını görememiştir.",
+        "B": "Hatay, Fransız mandası altındaki Suriye ile bağlantılı bir mesele olarak ele alınmıştır.",
+        "C": "1938’de Hatay Devleti kurulmuştur.",
+        "D": "Hatay, 1939’da Türkiye’ye katılmıştır.",
+        "E": "Hatay sorunu Sadabat Paktı ile çözüme kavuşmuştur."
+      },
+      "correct": "E",
+      "tip": "Hatay meselesi Sadabat Paktı’yla değil, Türkiye-Fransa görüşmeleri ve Hatay Devleti süreci sonucunda 1939’da çözülmüştür."
+    },
+    {
+      "id": "tar_26",
+      "question": "II. Dünya Savaşı boyunca Türkiye’nin temel dış politika yaklaşımı hangisidir?",
+      "options": {
+        "A": "Birleşmiş Milletler’i tek başına kurmak",
+        "B": "Denge siyaseti izleyerek savaşa girmekten kaçınmak",
+        "C": "Savaşın başından sonuna kadar Mihver Devletleri yanında savaşmak",
+        "D": "Sovyetler Birliği ile ortak bir askerî devlet kurmak",
+        "E": "Savaşın bütün cephelerinde aktif görev almak"
+      },
+      "correct": "B",
+      "tip": "Türkiye, savaşın büyük bölümünde denge politikası izleyerek savaşa doğrudan katılmamış; Şubat 1945’te Almanya ve Japonya’ya savaş ilan etmiştir."
+    },
+    {
+      "id": "tar_27",
+      "question": "Cumhuriyet döneminde kurulan ilk muhalefet partisi hangisidir?",
+      "options": {
+        "A": "Demokrat Parti",
+        "B": "Serbest Cumhuriyet Fırkası",
+        "C": "Millet Partisi",
+        "D": "Terakkiperver Cumhuriyet Fırkası",
+        "E": "Adalet Partisi"
+      },
+      "correct": "D",
+      "tip": "Terakkiperver Cumhuriyet Fırkası 1924’te kurulmuş ve Cumhuriyet döneminin ilk muhalefet partisi olmuştur."
+    }
   ],
   "Coğrafya": [
-    {"id": "cog_1", "question": "Türkiye'de güneşin en geç doğduğu ve en geç battığı yer aşağıdakilerden hangisidir?", "options": {"A": "Edirne", "B": "Kars", "C": "Hakkari", "D": "Sinop", "E": "Antalya"}, "correct": "A", "tip": "Yer yuvarlağının dönüşü nedeniyle en batıda yer alan Edirne'de güneş, Türkiye'nin diğer yerlerine göre en geç doğar ve en geç batar."},
-    {"id": "cog_2", "question": "Türkiye'de bir yerin denizden yüksekliği arttıkça aşağıdakilerden hangisi azalır?", "options": {"A": "Yıllık sıcaklık farkı", "B": "Bitki örtüsü çeşitliliği", "C": "Yıllık ortalama sıcaklık", "D": "Yağış miktarı", "E": "Kar yağışı olasılığı"}, "correct": "C", "tip": "Yükseltiye bağlı olarak her 200 metrede sıcaklık ortalama 1°C azalır."},
-    {"id": "cog_3", "question": "Türkiye'de en fazla heyelan (toprak kayması) hangi bölgede görülür?", "options": {"A": "Karadeniz", "B": "İç Anadolu", "C": "Güneydoğu Anadolu", "D": "Marmara", "E": "Akdeniz"}, "correct": "A", "tip": "Karadeniz Bölgesi'nde eğimin fazla, yağışın bol ve arazi yapısının elverişli olması heyelanları yaygınlaştırır."},
-    {"id": "cog_4", "question": "Aşağıdakilerden hangisi Türkiye'nin dış kuvvetlerle şekillenmiş yer şekillerinden biri değildir?", "options": {"A": "Peribacaları", "B": "Traverten", "C": "Volkan konisi", "D": "Menderes", "E": "Delta"}, "correct": "C", "tip": "Volkan konisi iç kuvvetlerin (volkanizma) etkisiyle oluşan bir yer şeklidir; diğerleri dış kuvvetlerin etkisiyle oluşur."},
-    {"id": "cog_5", "question": "Tarım alanlarının darlığı ve dışa göç nedeniyle Türkiye'de nüfus artış hızının en düşük olduğu bölgelerden biri aşağıdakilerden hangisidir?", "options": {"A": "Marmara", "B": "Güneydoğu Anadolu", "C": "Karadeniz", "D": "Akdeniz", "E": "Doğu Anadolu"}, "correct": "C", "tip": "Karadeniz Bölgesi, tarım alanlarının darlığı ve dışa göç nedeniyle Türkiye'de nüfus artış hızının en düşük olduğu bölgelerden biridir."},
-    {"id": "cog_6", "question": "Aşağıdaki barajlardan hangisi Fırat değil, Dicle Nehri üzerinde kurulmuştur?", "options": {"A": "Atatürk Barajı", "B": "Keban Barajı", "C": "Karakaya Barajı", "D": "Ilısu Barajı", "E": "Birecik Barajı"}, "correct": "D", "tip": "Atatürk, Keban, Karakaya ve Birecik barajları Fırat Nehri üzerindeyken; Ilısu Barajı Dicle Nehri üzerinde kurulmuştur."},
-    {"id": "cog_7", "question": "Türkiye'de I. jeolojik zamanda oluşmuş, günümüzde aşınarak yuvarlaklaşmış eski kütlelere (masiflere) aşağıdakilerden hangisi örnek gösterilebilir?", "options": {"A": "Toroslar", "B": "Kaçkar Dağları", "C": "Yıldız (Istranca) Dağları", "D": "Ağrı Dağı", "E": "Erciyes Dağı"}, "correct": "C", "tip": "Yıldız (Istranca) Dağları, I. Zamanda oluşmuş eski bir kütle (masif) örneğidir; diğer seçeneklerdeki dağlar daha genç oluşumludur."},
-    {"id": "cog_8", "question": "Güneydoğu Anadolu Projesi (GAP) kapsamında sulama ve enerji üretimi amacıyla en fazla baraj inşa edilen akarsu havzası aşağıdakilerden hangisidir?", "options": {"A": "Kızılırmak", "B": "Fırat", "C": "Sakarya", "D": "Yeşilırmak", "E": "Ceyhan"}, "correct": "B", "tip": "Güneydoğu Anadolu Projesi (GAP) esas olarak Fırat ve Dicle havzalarını kapsar; en büyük barajlar (Atatürk, Keban, Karakaya) Fırat üzerindedir."},
-    {"id": "cog_9", "question": "Aşağıdakilerden hangisi bir yerde nüfus yoğunluğunun fazla olmasının nedenlerinden biri değildir?", "options": {"A": "Sanayinin gelişmiş olması", "B": "Ulaşım imkanlarının elverişli olması", "C": "Yer şekillerinin sade ve düz olması", "D": "Yükseltinin fazla ve engebeli olması", "E": "Tarım alanlarının verimli olması"}, "correct": "D", "tip": "Yükseltinin fazla ve yer şekillerinin engebeli olması yerleşmeyi ve nüfuslanmayı zorlaştırır."},
-    {"id": "cog_10", "question": "Ege Bölgesi'nde kıyı ile iç kesimler arasında ulaşımın kolay olmasının temel nedeni aşağıdakilerden hangisidir?", "options": {"A": "Dağların kıyıya paralel uzanması", "B": "Dağların kıyıya dik uzanması", "C": "Yükseltinin fazla olması", "D": "Volkanik arazinin yaygın olması", "E": "Karstik yapının hakim olması"}, "correct": "B", "tip": "Ege Bölgesi'nde dağlar kıyıya dik uzanır; bu durum kıyı ile iç kesim arasındaki ulaşımı kolaylaştırır."},
-    {"id": "cog_11", "question": "Türkiye'de en fazla don olayının (donlu gün sayısının) görüldüğü bölge aşağıdakilerden hangisidir?", "options": {"A": "Marmara", "B": "Ege", "C": "Doğu Anadolu", "D": "Akdeniz", "E": "Karadeniz"}, "correct": "C", "tip": "Yükseltinin fazla ve karasal iklimin etkili olduğu Doğu Anadolu Bölgesi'nde kış sıcaklıkları çok düşük seyreder ve don olayı en fazla görülür."},
-    {"id": "cog_12", "question": "Aşağıdaki ovalardan hangisi kıyı ovası değildir?", "options": {"A": "Çukurova", "B": "Bafra Ovası", "C": "Çarşamba Ovası", "D": "Konya Ovası", "E": "Bursa Ovası"}, "correct": "D", "tip": "Konya Ovası, İç Anadolu'da yer alan bir karasal (iç) ovadır; diğerleri kıyı kesiminde yer alan kıyı ovalarıdır."},
-    {"id": "cog_13", "question": "Türkiye'de yer alan aşağıdaki göllerden hangisi tektonik kökenli değildir?", "options": {"A": "Van Gölü", "B": "Hazar Gölü", "C": "Sapanca Gölü", "D": "Burdur Gölü", "E": "Salda Gölü"}, "correct": "A", "tip": "Van Gölü, Nemrut Dağı'nın oluşturduğu set sonucu meydana gelmiş bir volkanik set gölüdür; diğerleri tektonik kökenli göllerdir."},
-    {"id": "cog_14", "question": "Kıyı kesimlerde yükseltinin iç kesimlere göre az olması aşağıdaki sonuçlardan hangisine yol açmaz?", "options": {"A": "Tarım ürünü çeşitliliğinin fazla olmasına", "B": "Ulaşımın kolaylaşmasına", "C": "Nüfuslanmanın artmasına", "D": "Sıcaklık farkının azalmasına", "E": "Karasal iklimin etkili olmasına"}, "correct": "E", "tip": "Kıyı kesimlerde deniz etkisi ile ılıman iklim koşulları görülür; karasal iklim özellikleri denizden uzak, iç kesimlerde etkilidir."},
-    {"id": "cog_15", "question": "Marmara Bölgesi'nin Türkiye ekonomisindeki payının en fazla olmasının temel nedeni aşağıdakilerden hangisidir?", "options": {"A": "Tarım alanlarının genişliği", "B": "Sanayi, ticaret ve ulaşımın gelişmiş olması", "C": "Maden kaynaklarının zenginliği", "D": "Hayvancılığın yaygın olması", "E": "Ormanların geniş yer kaplaması"}, "correct": "B", "tip": "Marmara Bölgesi, sanayi tesislerinin yoğunlaşması, gelişmiş ulaşım ağı ve ticaret hacmiyle Türkiye ekonomisine en fazla katkı sağlayan bölgedir."},
-    {"id": "cog_16", "question": "Türkiye'nin linyit rezervi bakımından en zengin ili aşağıdakilerden hangisidir?", "options": {"A": "Zonguldak", "B": "Kahramanmaraş", "C": "Bursa", "D": "Muğla", "E": "Çorum"}, "correct": "B", "tip": "Afşin-Elbistan havzası (Kahramanmaraş), Türkiye'nin en büyük linyit rezervine sahip yöresidir; taş kömürü ise Zonguldak'ta çıkarılır."},
-    {"id": "cog_17", "question": "Aşağıdaki boğazlardan hangisi Marmara Denizi'ni Ege Denizi'ne bağlar?", "options": {"A": "İstanbul Boğazı", "B": "Çanakkale Boğazı", "C": "Cebelitarık Boğazı", "D": "Kerç Boğazı", "E": "Hürmüz Boğazı"}, "correct": "B", "tip": "Çanakkale Boğazı, Marmara Denizi'ni Ege Denizi'ne; İstanbul Boğazı ise Karadeniz'i Marmara Denizi'ne bağlar."},
-    {"id": "cog_18", "question": "Türkiye'de yıl içinde en fazla sıcaklık farkının (günlük ve yıllık) görüldüğü iklim tipi aşağıdakilerden hangisidir?", "options": {"A": "Akdeniz iklimi", "B": "Karadeniz iklimi", "C": "Step (Karasal) iklim", "D": "Marmara (geçiş) iklimi", "E": "Nemli okyanus iklimi"}, "correct": "C", "tip": "Denizden uzak, nem oranı düşük olan İç ve Doğu Anadolu'da etkili olan karasal (step) iklimde günlük ve yıllık sıcaklık farkları en fazladır."}
+    {
+      "id": "cog_1",
+      "question": "Aşağıdaki illerden hangisinde yerel saat, Türkiye’nin doğusundaki illere göre daha geridir?",
+      "options": {
+        "A": "Iğdır",
+        "B": "Van",
+        "C": "Çanakkale",
+        "D": "Kars",
+        "E": "Hakkâri"
+      },
+      "correct": "C",
+      "tip": "Yerel saat doğuya gidildikçe ilerler. Seçenekler içinde en batıda bulunan Çanakkale’de yerel saat daha geridir."
+    },
+    {
+      "id": "cog_2",
+      "question": "Bir yerde deniz seviyesinden yükselti arttıkça, diğer koşullar aynı kaldığında aşağıdakilerden hangisi genel olarak azalır?",
+      "options": {
+        "A": "Yıllık ortalama sıcaklık",
+        "B": "Don olaylarının görülme sıklığı",
+        "C": "Kar yağışının görülme olasılığı",
+        "D": "Kar örtüsünün yerde kalma süresi",
+        "E": "Kalıcı kar sınırının yükseltisi"
+      },
+      "correct": "A",
+      "tip": "Yükselti arttıkça hava sıcaklığı genel olarak azalır; diğer seçeneklerdeki koşullar ise yükselti arttıkça genellikle artma eğilimindedir."
+    },
+    {
+      "id": "cog_3",
+      "question": "Türkiye’de heyelanların özellikle Doğu Karadeniz’de yaygın olmasının temel nedeni hangisidir?",
+      "options": {
+        "A": "Akarsu ağının çok seyrek olması",
+        "B": "Volkanik arazilerin geniş yer kaplaması",
+        "C": "Yıllık sıcaklık farkının çok fazla olması",
+        "D": "Eğimli arazilerin ve bol yağışın bir arada bulunması",
+        "E": "Yaz kuraklığının çok belirgin olması"
+      },
+      "correct": "D",
+      "tip": "Dik yamaçlar ve bol yağış, toprağın suya doymasını ve yamaç aşağı hareket etmesini kolaylaştırır."
+    },
+    {
+      "id": "cog_4",
+      "question": "Aşağıdakilerden hangisi iç kuvvetlerin etkisiyle oluşan bir yer şeklidir?",
+      "options": {
+        "A": "Peribacası",
+        "B": "Volkan konisi",
+        "C": "Delta ovası",
+        "D": "Traverten",
+        "E": "Menderes"
+      },
+      "correct": "B",
+      "tip": "Volkan konileri volkanizma sonucu oluşur; diğer seçenekler dış kuvvetlerin etkisiyle şekillenir."
+    },
+    {
+      "id": "cog_5",
+      "question": "Bir yöreden dışarıya göçü artırabilecek temel koşul aşağıdakilerden hangisidir?",
+      "options": {
+        "A": "Ulaşım ağının gelişmesi",
+        "B": "İş imkânlarının çeşitlenmesi",
+        "C": "Eğitim kurumlarının çoğalması",
+        "D": "Sanayi yatırımlarının artması",
+        "E": "Tarım alanlarının dar ve iş olanaklarının sınırlı olması"
+      },
+      "correct": "E",
+      "tip": "Geçim kaynaklarının ve istihdamın yetersiz olması, nüfusun başka bölgelere göç etmesini teşvik edebilir."
+    },
+    {
+      "id": "cog_6",
+      "question": "Aşağıdaki barajlardan hangisi Dicle Nehri üzerinde kurulmuştur?",
+      "options": {
+        "A": "Ilısu",
+        "B": "Karakaya",
+        "C": "Keban",
+        "D": "Atatürk",
+        "E": "Birecik"
+      },
+      "correct": "A",
+      "tip": "Ilısu Barajı Dicle Nehri üzerindedir; diğer seçeneklerdeki barajlar Fırat Nehri üzerindedir."
+    },
+    {
+      "id": "cog_7",
+      "question": "Türkiye’de eski kütle (masif) örneği olarak gösterilen dağ grubu hangisidir?",
+      "options": {
+        "A": "Toroslar",
+        "B": "Kaçkar Dağları",
+        "C": "Ağrı Dağları",
+        "D": "Erciyes Dağı",
+        "E": "Yıldız (Istranca) Dağları"
+      },
+      "correct": "E",
+      "tip": "Yıldız (Istranca) Dağları, Türkiye’deki eski kütlelere örnek olarak gösterilir."
+    },
+    {
+      "id": "cog_8",
+      "question": "Atatürk Barajı hangi akarsu üzerinde kurulmuştur?",
+      "options": {
+        "A": "Dicle",
+        "B": "Fırat",
+        "C": "Yeşilırmak",
+        "D": "Kızılırmak",
+        "E": "Sakarya"
+      },
+      "correct": "B",
+      "tip": "Atatürk Barajı, Güneydoğu Anadolu Projesi kapsamında Fırat Nehri üzerinde kurulmuştur."
+    },
+    {
+      "id": "cog_9",
+      "question": "Aşağıdakilerden hangisi bir yerde nüfus yoğunluğunun fazla olmasını genellikle zorlaştırır?",
+      "options": {
+        "A": "İklimin elverişli olması",
+        "B": "Sanayi işlerinin yaygın olması",
+        "C": "Yüksek ve engebeli yer şekillerinin geniş alan kaplaması",
+        "D": "Ulaşımın gelişmiş olması",
+        "E": "Verimli ovaların bulunması"
+      },
+      "correct": "C",
+      "tip": "Yüksek ve engebeli araziler ulaşımı, tarımı ve yerleşmeyi zorlaştırarak nüfus yoğunluğunu düşürebilir."
+    },
+    {
+      "id": "cog_10",
+      "question": "Ege Bölgesi’nde kıyı ile iç kesimler arasındaki ulaşımın görece kolay olmasını sağlayan temel yer şekli özelliği hangisidir?",
+      "options": {
+        "A": "Karstik şekillerin geniş yer kaplaması",
+        "B": "Dağların kıyıya dik uzanması",
+        "C": "Kıyıların çok yüksek falezlerden oluşması",
+        "D": "Volkanik platoların yaygın olması",
+        "E": "Dağların kıyıya paralel uzanması"
+      },
+      "correct": "B",
+      "tip": "Ege’de dağların kıyıya dik uzanması, kıyıdan iç kesimlere ulaşım koridorlarının oluşmasını kolaylaştırır."
+    },
+    {
+      "id": "cog_11",
+      "question": "Türkiye’de donlu gün sayısının en fazla olduğu bölge aşağıdakilerden hangisidir?",
+      "options": {
+        "A": "Akdeniz",
+        "B": "Marmara",
+        "C": "Karadeniz",
+        "D": "Ege",
+        "E": "Doğu Anadolu"
+      },
+      "correct": "E",
+      "tip": "Yükseltinin fazla ve kışların sert olduğu Doğu Anadolu’da donlu gün sayısı yüksektir."
+    },
+    {
+      "id": "cog_12",
+      "question": "Aşağıdaki ovalardan hangisi kıyı ovası değildir?",
+      "options": {
+        "A": "Gediz Ovası",
+        "B": "Bafra Ovası",
+        "C": "Çukurova",
+        "D": "Konya Ovası",
+        "E": "Çarşamba Ovası"
+      },
+      "correct": "D",
+      "tip": "Konya Ovası, İç Anadolu’da yer alan bir iç ovadır; diğer seçenekler kıyı bölgeleriyle ilişkilidir."
+    },
+    {
+      "id": "cog_13",
+      "question": "Van Gölü aşağıdaki göl oluşum türlerinden hangisine örnektir?",
+      "options": {
+        "A": "Heyelan set gölü",
+        "B": "Volkanik set gölü",
+        "C": "Alüvyal set gölü",
+        "D": "Buzul set gölü",
+        "E": "Kıyı set gölü"
+      },
+      "correct": "B",
+      "tip": "Van Gölü havzasında volkanik faaliyetlerle oluşan set, suların birikmesine yol açmıştır."
+    },
+    {
+      "id": "cog_14",
+      "question": "Türkiye’nin kıyı kesimlerinde iç kesimlere göre deniz etkisinin daha güçlü olması aşağıdakilerden hangisine yol açmaz?",
+      "options": {
+        "A": "Karasal iklim özelliklerinin belirginleşmesine",
+        "B": "Bazı tarım ürünlerinin yetişme alanının genişlemesine",
+        "C": "Deniz etkisinin artmasına",
+        "D": "Kışların daha ılıman geçmesine",
+        "E": "Yıllık sıcaklık farkının genellikle azalmasına"
+      },
+      "correct": "A",
+      "tip": "Deniz etkisi kıyılarda sıcaklık farklarını azaltıp iklimi ılımanlaştırır; karasallık iç kesimlerde belirgindir."
+    },
+    {
+      "id": "cog_15",
+      "question": "Marmara Bölgesi’nin Türkiye ekonomisine yüksek katkı sağlamasında en etkili unsur hangisidir?",
+      "options": {
+        "A": "Sadece hayvancılığın gelişmiş olması",
+        "B": "Tarımın ülke genelinde yalnız bu bölgede yapılması",
+        "C": "Sanayi, ticaret ve ulaşımın yoğunlaşması",
+        "D": "Türkiye’deki bütün madenlerin burada çıkarılması",
+        "E": "Orman alanlarının en geniş bölgeyi kaplaması"
+      },
+      "correct": "C",
+      "tip": "Sanayi tesisleri, limanlar, ticaret merkezleri ve gelişmiş ulaşım ağları Marmara’nın ekonomik ağırlığını artırır."
+    },
+    {
+      "id": "cog_16",
+      "question": "Afşin-Elbistan linyit havzası hangi il sınırları içindedir?",
+      "options": {
+        "A": "Muğla",
+        "B": "Çorum",
+        "C": "Zonguldak",
+        "D": "Kahramanmaraş",
+        "E": "Bursa"
+      },
+      "correct": "D",
+      "tip": "Afşin-Elbistan linyit havzası Kahramanmaraş’tadır ve Türkiye’nin önemli linyit rezervlerinden biridir."
+    },
+    {
+      "id": "cog_17",
+      "question": "Marmara Denizi’ni Ege Denizi’ne bağlayan boğaz hangisidir?",
+      "options": {
+        "A": "Çanakkale Boğazı",
+        "B": "Hürmüz Boğazı",
+        "C": "Cebelitarık Boğazı",
+        "D": "Kerç Boğazı",
+        "E": "İstanbul Boğazı"
+      },
+      "correct": "A",
+      "tip": "Çanakkale Boğazı Marmara Denizi’ni Ege Denizi’ne bağlar; İstanbul Boğazı ise Karadeniz ile Marmara arasındadır."
+    },
+    {
+      "id": "cog_18",
+      "question": "Türkiye’de günlük ve yıllık sıcaklık farklarının genellikle en fazla olduğu iklim tipi hangisidir?",
+      "options": {
+        "A": "Akdeniz iklimi",
+        "B": "Okyanusal iklim",
+        "C": "Karasal (step) iklim",
+        "D": "Karadeniz iklimi",
+        "E": "Ekvatoral iklim"
+      },
+      "correct": "C",
+      "tip": "Deniz etkisinin zayıf, nem oranının görece düşük olduğu iç kesimlerde sıcaklık farkları artar."
+    }
   ],
   "Vatandaşlık": [
-    {"id": "vat_1", "question": "1982 Anayasası'na göre Anayasa Mahkemesi kaç üyeden oluşur?", "options": {"A": "11", "B": "13", "C": "15", "D": "17", "E": "19"}, "correct": "C", "tip": "Anayasa Mahkemesi, Anayasa'nın 146. maddesine göre 15 üyeden oluşur."},
-    {"id": "vat_2", "question": "Cumhurbaşkanlığı seçiminde ilk oylamada hiçbir adayın geçerli oyların salt çoğunluğunu sağlayamaması durumunda ne yapılır?", "options": {"A": "Seçim iptal edilir.", "B": "En çok oy alan iki aday arasında ikinci oylama yapılır.", "C": "TBMM yeni cumhurbaşkanını seçer.", "D": "Seçim bir yıl ertelenir.", "E": "Meclis feshedilir."}, "correct": "B", "tip": "İlk oylamada salt çoğunluk sağlanamazsa, izleyen ikinci pazar günü en çok oy alan iki aday arasında ikinci oylama yapılır."},
-    {"id": "vat_3", "question": "Anayasa değişikliği teklifinin, Cumhurbaşkanı tarafından halkoyuna sunulmaksızın doğrudan onaylanabilmesi için TBMM'de kabul edilmesi gereken çoğunluk oranı aşağıdakilerden hangisidir?", "options": {"A": "Üye tam sayısının salt çoğunluğu", "B": "Üye tam sayısının 3/5'i", "C": "Üye tam sayısının 2/3'ü", "D": "Toplantıya katılanların salt çoğunluğu", "E": "Üye tam sayısının 4/5'i"}, "correct": "C", "tip": "Anayasa değişikliği teklifi üye tam sayısının 2/3 çoğunluğu (400 milletvekili) ile kabul edilirse Cumhurbaşkanı bunu halkoyuna sunmadan onaylayabilir."},
-    {"id": "vat_4", "question": "Aşağıdakilerden hangisi Cumhurbaşkanının tek başına yapabileceği bir işlem değildir?", "options": {"A": "Üst kademe kamu yöneticilerini atamak", "B": "Milletlerarası antlaşmaları onaylamak ve yayımlamak", "C": "TBMM seçimlerinin yenilenmesine karar vermek", "D": "Yargıtay üyelerini doğrudan seçmek", "E": "Sürekli hastalık, sakatlık ve kocama sebebiyle belirli kişilerin cezalarını hafifletmek veya kaldırmak"}, "correct": "D", "tip": "Yargıtay üyeleri, Hakimler ve Savcılar Kurulunun (HSK) göstereceği adaylar arasından seçilir; bu, Cumhurbaşkanının tek başına yaptığı bir işlem değildir."},
-    {"id": "vat_5", "question": "Türkiye Büyük Millet Meclisi üye tam sayısı kaçtır?", "options": {"A": "500", "B": "550", "C": "600", "D": "450", "E": "650"}, "correct": "C", "tip": "2017 Anayasa değişikliğiyle milletvekili sayısı 550'den 600'e çıkarılmıştır."},
-    {"id": "vat_6", "question": "Aşağıdakilerden hangisi Anayasa'ya göre 'sosyal ve ekonomik haklar' kapsamında değerlendirilemez?", "options": {"A": "Çalışma hakkı", "B": "Sağlık hakkı", "C": "Konut hakkı", "D": "Seyahat özgürlüğü", "E": "Sendika kurma hakkı"}, "correct": "D", "tip": "Seyahat özgürlüğü, kişinin kişi hak ve ödevleri (temel hak ve özgürlükler) kapsamında yer alır; sosyal-ekonomik bir hak değildir."},
-    {"id": "vat_7", "question": "Milletvekilliğinin düşmesine aşağıdaki hâllerden hangisi yol açmaz?", "options": {"A": "Bağımsız milletvekilinin herhangi bir partiye girmesi", "B": "İstifa", "C": "Kesin hüküm giyme", "D": "Meclis çalışmalarına özürsüz ve izinsiz olarak bir ay içinde toplam beş birleşim günü katılmama", "E": "Milletvekilinin başka bir şehre taşınması"}, "correct": "E", "tip": "Milletvekilinin ikametgahını değiştirmesi, Anayasa'da sayılan milletvekilliğinin düşme sebepleri arasında yer almaz."},
-    {"id": "vat_8", "question": "Yerel yönetimler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?", "options": {"A": "Mahalli idareler il özel idaresi, belediye ve köy şeklinde teşkilatlanır.", "B": "Mahalli idarelerin organları seçmenler tarafından seçilir.", "C": "Merkezi idare, mahalli idareler üzerinde vesayet yetkisine sahiptir.", "D": "Mahalli idareler yasama yetkisine sahiptir.", "E": "Büyükşehir belediyeleri özel bir yönetim biçimidir."}, "correct": "D", "tip": "Yasama yetkisi yalnızca TBMM'ye aittir; mahalli idarelerin yasama yetkisi bulunmaz, yalnızca yerel düzenleyici işlemler yapabilirler."},
-    {"id": "vat_9", "question": "Usulüne göre yürürlüğe konulmuş, temel hak ve özgürlüklere ilişkin bir milletlerarası antlaşma ile kanunların aynı konuda farklı hükümler içermesi durumunda hangisi esas alınır?", "options": {"A": "Kanun hükümleri", "B": "Milletlerarası antlaşma hükümleri", "C": "Anayasa Mahkemesi kararı beklenir", "D": "Cumhurbaşkanlığı kararnamesi", "E": "Yönetmelik hükümleri"}, "correct": "B", "tip": "Anayasa'nın 90. maddesine göre, temel hak ve özgürlüklere ilişkin milletlerarası antlaşmalarla kanunların çelişmesi hâlinde milletlerarası antlaşma hükümleri esas alınır."}
+    {
+      "id": "vat_1",
+      "question": "1982 Anayasası’na göre Anayasa Mahkemesi kaç üyeden oluşur?",
+      "options": {
+        "A": "17",
+        "B": "11",
+        "C": "19",
+        "D": "15",
+        "E": "13"
+      },
+      "correct": "D",
+      "tip": "Anayasa Mahkemesi 15 üyeden oluşur."
+    },
+    {
+      "id": "vat_2",
+      "question": "Cumhurbaşkanı seçiminde ilk oylamada geçerli oyların salt çoğunluğu sağlanamazsa hangi işlem yapılır?",
+      "options": {
+        "A": "Seçim iptal edilir.",
+        "B": "Seçim bir yıl sonraya ertelenir.",
+        "C": "Cumhurbaşkanını TBMM seçer.",
+        "D": "En çok oy alan iki aday arasında ikinci oylama yapılır.",
+        "E": "Yalnızca ilk sıradaki adayla yeni oylama yapılır."
+      },
+      "correct": "D",
+      "tip": "İlk oylamada salt çoğunluk sağlanamazsa en çok oy alan iki aday arasında ikinci oylama yapılır."
+    },
+    {
+      "id": "vat_3",
+      "question": "Anayasa değişikliği kanununun Cumhurbaşkanı tarafından halkoyuna sunulmadan yayımlanabilmesi için TBMM’de en az hangi kabul çoğunluğuna ulaşılması gerekir?",
+      "options": {
+        "A": "Üye tam sayısının üçte ikisi",
+        "B": "Üye tam sayısının beşte üçü",
+        "C": "Üye tam sayısının salt çoğunluğu",
+        "D": "Toplantıya katılanların salt çoğunluğu",
+        "E": "Üye tam sayısının dörtte üçü"
+      },
+      "correct": "A",
+      "tip": "Üye tam sayısının en az üçte ikisiyle kabul edilen değişiklik, Cumhurbaşkanı tarafından halkoyuna sunulmadan yayımlanabilir; Cumhurbaşkanının referanduma sunma yetkisi de vardır."
+    },
+    {
+      "id": "vat_4",
+      "question": "Aşağıdakilerden hangisi Cumhurbaşkanının tek başına doğrudan yapabildiği işlemler arasında yer almaz?",
+      "options": {
+        "A": "Belirli kişilerin cezalarını sürekli hastalık veya yaşlılık nedeniyle hafifletmek ya da kaldırmak",
+        "B": "TBMM seçimlerinin yenilenmesine karar vermek",
+        "C": "Milletlerarası antlaşmaları onaylamak ve yayımlamak",
+        "D": "Üst kademe kamu yöneticilerini atamak",
+        "E": "Yargıtay üyelerini doğrudan seçmek"
+      },
+      "correct": "E",
+      "tip": "Yargıtay üyelerinin seçimi Hâkimler ve Savcılar Kurulunun görevleri arasındadır; Cumhurbaşkanı onları doğrudan seçmez."
+    },
+    {
+      "id": "vat_5",
+      "question": "Türkiye Büyük Millet Meclisinin üye tam sayısı kaçtır?",
+      "options": {
+        "A": "500",
+        "B": "650",
+        "C": "600",
+        "D": "550",
+        "E": "450"
+      },
+      "correct": "C",
+      "tip": "TBMM 600 milletvekilinden oluşur."
+    },
+    {
+      "id": "vat_6",
+      "question": "Aşağıdaki haklardan hangisi Anayasa’da sosyal ve ekonomik haklar ve ödevler bölümünde yer almaz?",
+      "options": {
+        "A": "Seyahat özgürlüğü",
+        "B": "Konut hakkı",
+        "C": "Sendika kurma hakkı",
+        "D": "Çalışma hakkı",
+        "E": "Sağlık hakkı"
+      },
+      "correct": "A",
+      "tip": "Seyahat özgürlüğü kişi hakları ve ödevleri arasında yer alır; diğerleri sosyal ve ekonomik haklardandır."
+    },
+    {
+      "id": "vat_7",
+      "question": "Aşağıdaki durumlardan hangisi milletvekilliğinin düşmesine tek başına yol açmaz?",
+      "options": {
+        "A": "Milletvekilinin istifa etmesi ve istifasının kabul edilmesi",
+        "B": "Milletvekilinin başka bir şehre taşınması",
+        "C": "Milletvekilliğiyle bağdaşmayan bir görevin sürdürülmesi",
+        "D": "Meclis çalışmalarına özürsüz ve izinsiz katılmama koşullarının oluşması",
+        "E": "Kesin hüküm giyme durumunun Genel Kurula bildirilmesi"
+      },
+      "correct": "B",
+      "tip": "İkamet edilen şehrin değişmesi tek başına milletvekilliğinin düşmesi nedeni değildir."
+    },
+    {
+      "id": "vat_8",
+      "question": "Yerel yönetimlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+      "options": {
+        "A": "İl özel idaresi, belediye ve köy mahallî idare birimlerindendir.",
+        "B": "Mahallî idareler kanun çıkarma yetkisine sahiptir.",
+        "C": "Belediye ve köy mahallî idare türlerindendir.",
+        "D": "Mahallî idarelerin karar organları seçimle oluşturulur.",
+        "E": "Merkezî idarenin mahallî idareler üzerinde idari vesayet yetkisi bulunur."
+      },
+      "correct": "B",
+      "tip": "Yasama yetkisi TBMM’ye aittir; mahallî idarelerin kanun çıkarma yetkisi yoktur."
+    },
+    {
+      "id": "vat_9",
+      "question": "Usulüne göre yürürlüğe konulmuş temel hak ve özgürlüklere ilişkin bir milletlerarası antlaşma ile kanun aynı konuda farklı hükümler içeriyorsa hangisi esas alınır?",
+      "options": {
+        "A": "Kanun hükmü",
+        "B": "Cumhurbaşkanlığı kararnamesi",
+        "C": "Milletlerarası antlaşma hükmü",
+        "D": "Yönetmelik hükmü",
+        "E": "TBMM komisyonunun görüşü"
+      },
+      "correct": "C",
+      "tip": "Anayasa’nın 90. maddesi uyarınca temel hak ve özgürlüklere ilişkin usulüne göre yürürlüğe konulmuş milletlerarası antlaşmalarla kanunların aynı konuda farklı hükümler içermesi durumunda antlaşma hükümleri esas alınır."
+    }
   ],
   "Güncel Bilgiler": [
-    {"id": "gun_1", "question": "Türkiye'nin tasarımından üretimine kadar yerli imkanlarla geliştirdiği ilk haberleşme uydusu aşağıdakilerden hangisidir?", "options": {"A": "Göktürk-1", "B": "Türksat 6A", "C": "RASAT", "D": "İMECE", "E": "Türksat 3A"}, "correct": "B", "tip": "Türksat 6A, Türkiye'nin tamamen yerli imkanlarla geliştirdiği ilk haberleşme uydusudur."},
-    {"id": "gun_2", "question": "Aşağıdakilerden hangisi UNESCO Dünya Mirası Kalıcı Listesi'nde yer alan somut kültürel mirasımızdan biri değildir?", "options": {"A": "Nemrut Dağı", "B": "Pamukkale-Hierapolis", "C": "Efes", "D": "Sümela Manastırı", "E": "Göbeklitepe"}, "correct": "D", "tip": "Sümela Manastırı, UNESCO Dünya Mirası Geçici (Tentative) Listesi'nde yer almakla birlikte kalıcı listeye henüz girmemiştir; diğerleri kalıcı listede yer alan miras alanlarıdır."},
-    {"id": "gun_3", "question": "Dünyanın en büyük ekonomilerini bir araya getiren, Türkiye'nin de üyesi olduğu uluslararası oluşum aşağıdakilerden hangisidir?", "options": {"A": "G7", "B": "G20", "C": "BRICS", "D": "OECD", "E": "APEC"}, "correct": "B", "tip": "G20, dünya ekonomisinin büyük bölümünü oluşturan 19 ülke ile Avrupa Birliği'ni bir araya getiren bir forumdur; Türkiye de bu oluşumun üyesidir."},
-    {"id": "gun_4", "question": "Kanal İstanbul Projesi hangi iki deniz arasında planlanan yapay bir su yoludur?", "options": {"A": "Ege - Akdeniz", "B": "Marmara - Ege", "C": "Karadeniz - Marmara", "D": "Akdeniz - Karadeniz", "E": "Marmara - Akdeniz"}, "correct": "C", "tip": "Kanal İstanbul, İstanbul Boğazı'na alternatif olarak Karadeniz ile Marmara Denizi'ni birbirine bağlaması planlanan bir su yolu projesidir."},
-    {"id": "gun_5", "question": "Türkiye'nin ilk yerli ve milli otomobili TOGG'un üretim fabrikası hangi ilimizde kurulmuştur?", "options": {"A": "Bursa", "B": "Kocaeli", "C": "Sakarya", "D": "İstanbul", "E": "Ankara"}, "correct": "A", "tip": "TOGG'un üretim fabrikası Bursa'nın Gemlik ilçesinde kurulmuştur."},
-    {"id": "gun_6", "question": "Aşağıdakilerden hangisi Türkiye'nin tam üye olarak taraf olduğu bölgesel iş birliği örgütlerinden biri değildir?", "options": {"A": "Karadeniz Ekonomik İşbirliği (KEİ)", "B": "İslam İşbirliği Teşkilatı (İİT)", "C": "Türk Devletleri Teşkilatı", "D": "Avrupa Birliği", "E": "Ekonomik İşbirliği Teşkilatı (ECO)"}, "correct": "D", "tip": "Türkiye, Avrupa Birliği'ne aday ülke statüsündedir, tam üyesi değildir; diğer oluşumlara ise tam üye olarak katılmaktadır."}
+    {
+      "id": "gun_1",
+      "question": "Türkiye’nin yerli imkânlarla geliştirdiği ilk yerli ve millî haberleşme uydusu hangisidir?",
+      "options": {
+        "A": "İMECE",
+        "B": "Türksat 3A",
+        "C": "RASAT",
+        "D": "Türksat 6A",
+        "E": "Göktürk-1"
+      },
+      "correct": "D",
+      "tip": "Türksat 6A, Türkiye’nin ilk yerli ve millî haberleşme uydusudur ve 21 Nisan 2025’te resmen hizmete alınmıştır."
+    },
+    {
+      "id": "gun_2",
+      "question": "Sümela Manastırı’nın UNESCO Dünya Mirası kapsamındaki statüsü aşağıdakilerden hangisidir?",
+      "options": {
+        "A": "UNESCO tarafından tescillenmemiştir.",
+        "B": "Dünya Mirası Kalıcı Listesi’nde yer almaktadır.",
+        "C": "UNESCO Dünya Mirası Geçici Listesi’nde yer almaktadır.",
+        "D": "UNESCO’nun doğal miras alanlarından biridir.",
+        "E": "Yalnızca UNESCO Somut Olmayan Kültürel Miras Listesi’ndedir."
+      },
+      "correct": "C",
+      "tip": "Sümela Manastırı UNESCO Dünya Mirası Geçici Listesi’ndedir; kalıcı Dünya Mirası Listesi’nde değildir."
+    },
+    {
+      "id": "gun_3",
+      "question": "Türkiye’nin de üyesi olduğu G20’nin temel özelliği aşağıdakilerden hangisidir?",
+      "options": {
+        "A": "Sadece askerî ittifak niteliği taşıması",
+        "B": "Başlıca gelişmiş ve gelişmekte olan ekonomileri bir araya getirmesi",
+        "C": "Birleşmiş Milletler’in yargı organı olması",
+        "D": "Yalnızca Avrupa ülkelerinden oluşması",
+        "E": "Yalnızca petrol ihraç eden ülkeleri kapsaması"
+      },
+      "correct": "B",
+      "tip": "G20, dünya ekonomisinde önemli ağırlığı bulunan gelişmiş ve gelişmekte olan ekonomileri bir araya getiren bir forumdur."
+    },
+    {
+      "id": "gun_4",
+      "question": "Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi’nin 31. Taraflar Konferansı (COP31), 2026 yılında hangi şehirde yapılmak üzere planlanmıştır?",
+      "options": {
+        "A": "Antalya",
+        "B": "İstanbul",
+        "C": "Ankara",
+        "D": "İzmir",
+        "E": "Bursa"
+      },
+      "correct": "A",
+      "tip": "UNFCCC duyurusuna göre COP31, 9–20 Kasım 2026 tarihlerinde Antalya’da düzenlenecektir."
+    },
+    {
+      "id": "gun_5",
+      "question": "2026 FIFA Erkekler Dünya Kupası’na hangi üç ülke birlikte ev sahipliği yapmıştır?",
+      "options": {
+        "A": "İspanya, Portekiz ve Fas",
+        "B": "Japonya, Güney Kore ve Çin",
+        "C": "Brezilya, Arjantin ve Şili",
+        "D": "Almanya, Fransa ve İtalya",
+        "E": "Kanada, Meksika ve ABD"
+      },
+      "correct": "E",
+      "tip": "2026 Dünya Kupası Kanada, Meksika ve ABD’nin ortak ev sahipliğinde düzenlenmiş ve 48 takımın katıldığı ilk Dünya Kupası olmuştur."
+    },
+    {
+      "id": "gun_6",
+      "question": "9 Ekim 2026’da açıklanan 2026 Nobel Barış Ödülü’nü kim kazanmıştır?",
+      "options": {
+        "A": "Navi Pillay",
+        "B": "Maria Corina Machado",
+        "C": "Narges Mohammadi",
+        "D": "Greta Thunberg",
+        "E": "Malala Yousafzai"
+      },
+      "correct": "A",
+      "tip": "Navi Pillay, 2026 Nobel Barış Ödülü’nün sahibi olarak açıklanmıştır; güncel bilgiler sınav öncesinde güvenilir kaynaklardan yeniden gözden geçirilmelidir."
+    }
   ]
 }
